@@ -1,0 +1,51 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "6%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "4%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s6a7a1ed93164166ba96395c6661244b",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s6a7a1ed93164166ba96395c6661244b",
+    "id": "backbutton",
+    "info": null,
+    "isvisible": true,
+    "kuid": "c86a71b0c12e41f7a1b7701f35ea9024",
+    "name": "kony.ui.Button",
+    "onclick": "AS_Button_f74940f0bbaa4236b90b823cb284ffbc",
+    "parent": "profilepageunused",
+    "pf": "profilepageunused",
+    "wType": "Button",
+    "zindex": 4
+}

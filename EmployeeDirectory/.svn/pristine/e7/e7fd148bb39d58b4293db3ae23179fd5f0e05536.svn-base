@@ -1,0 +1,50 @@
+{
+    "AS_Button_cda878683e7547d1bd6c6d88ffc4a164": {
+        "id": "AS_Button_cda878683e7547d1bd6c6d88ffc4a164",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "directorypage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c63867c4976342aeb031a52c5abc8743"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__df9a554cb0604953b870945cb7af1d73",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "directorypage.sfimage.isVisible=true;\nonClickApplyButton();",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "MOVE_ACTION____b658d93f3d2f49be8742cd72e9d2ddfd",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "directorypage",
+            "widgetId": "sortandfilter",
+            "itemKUID": "c63867c4976342aeb031a52c5abc8743",
+            "widgetKUID": "e86ccbc8490c4886849beb5d6e5a2a40",
+            "animationObject": {
+                "left": "100%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "250"
+            },
+            "start": "Immediately",
+            "animationId": "MOVE_ACTION____b658d93f3d2f49be8742cd72e9d2ddfd",
+            "displayAnimationId": "MOVE_ACTION____b658d93f3d2f49be8742cd72e9d2ddfd",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

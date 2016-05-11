@@ -1,0 +1,29 @@
+{
+    "AS_TextField_f69352749110480a9916dced0e2dbe4d": {
+        "id": "AS_TextField_f69352749110480a9916dced0e2dbe4d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "directorypage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c63867c4976342aeb031a52c5abc8743"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__ecf066b7b9034711b097c9df47085ebe",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "directorypage.searchimage.isVisible=false;\ndirectorypage.searchlabel.isVisible=false;\ndirectorypage.searchinvis.isVisible=true;\ndirectorypage.cancelbutton.isVisible=true;\ndirectorypage.buttonsflex.isVisible=false;\ndirectorypage.datasegment.width = \"100%\";\ndirectorypage.searchbox.width = \"79%\";",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

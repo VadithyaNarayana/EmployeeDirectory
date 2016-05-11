@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "56.50%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "13%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s73ab044ff5e4a89bb599e0bb8571ed2",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "22.60%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "13.06%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s73ab044ff5e4a89bb599e0bb8571ed2",
+    "id": "salesbutton",
+    "info": null,
+    "isvisible": true,
+    "kuid": "98dcc6d6e5344e1dae0694e9aa73bf4e",
+    "name": "kony.ui.Button",
+    "onclick": "AS_Button_a27646cc57c8448898ad7a251577d8af",
+    "parent": "salesflex",
+    "pf": "directorypage",
+    "wType": "Button",
+    "zindex": 2
+}

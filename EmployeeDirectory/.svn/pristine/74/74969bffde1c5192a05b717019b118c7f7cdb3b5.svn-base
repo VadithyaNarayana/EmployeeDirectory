@@ -1,0 +1,59 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "24dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_skin_": "sfb97671f4094275a37e9841c6baad13",
+    "_src_": "logout.png",
+    "_top_": {
+        "type": "string",
+        "value": "15%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "24dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "directorypage",
+        "platform": "spaip",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "id": "imgLogout",
+    "imagescalemode": 0,
+    "info": null,
+    "invokedProperty": "src",
+    "isvisible": true,
+    "kuid": "2f4b19a1e6e94c2998b7ac1129886bac",
+    "name": "kony.ui.Image2",
+    "ontouchstart": "AS_Image_1a44c6b052a04259b1679cc1bb98bfbd",
+    "parent": "mainflex",
+    "pf": "directorypage",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 4
+}

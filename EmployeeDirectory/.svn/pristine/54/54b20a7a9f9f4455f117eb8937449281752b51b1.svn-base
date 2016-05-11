@@ -1,0 +1,110 @@
+{
+  "android": {
+    "border_color": "000000ff",
+    "border_style": "custom",
+    "border_type": 0,
+    "border_width": 1,
+    "font_size": 238,
+    "isForked": true
+  },
+  "background_color": "000000ff",
+  "bg_type": "one",
+  "border_color": "000000ff",
+  "border_radius": 100,
+  "border_style": "custom",
+  "border_type": 0,
+  "border_width": 5,
+  "desktopweb": {
+    "font_size": 238,
+    "isForked": true
+  },
+  "fontSizeInPx": false,
+  "font_color": "424242ff",
+  "font_name": "Helvetica",
+  "font_size": 0,
+  "font_style": "normal",
+  "font_weight": "normal",
+  "ipad": {
+    "border_color": "000000ff",
+    "border_style": "custom",
+    "border_type": 0,
+    "border_width": 1,
+    "font_size": 238,
+    "isForked": true
+  },
+  "iphone": {
+    "border_color": "000000ff",
+    "border_style": "custom",
+    "border_type": 0,
+    "border_width": 1,
+    "font_size": 238,
+    "isForked": true
+  },
+  "isDefaultSkin": false,
+  "kiosk": {
+    "border_color": "000000ff",
+    "border_style": "custom",
+    "border_type": 0,
+    "border_width": 1,
+    "font_size": 238,
+    "isForked": true
+  },
+  "kuid": "sfc4c8f79fd14723be0abab34a4e5e4c",
+  "spaan": {
+    "font_size": 238,
+    "isForked": true
+  },
+  "spaandroidtablet": {
+    "font_size": 238,
+    "isForked": true
+  },
+  "spabb": {
+    "font_size": 238,
+    "isForked": true
+  },
+  "spaip": {
+    "font_size": 238,
+    "isForked": true
+  },
+  "spaipad": {
+    "font_size": 238,
+    "isForked": true
+  },
+  "spawindowstablet": {
+    "font_size": 238,
+    "isForked": true
+  },
+  "spawinphone8": {
+    "font_size": 238,
+    "isForked": true
+  },
+  "tabrcandroid": {
+    "border_color": "000000ff",
+    "border_style": "custom",
+    "border_type": 0,
+    "border_width": 1,
+    "font_size": 238,
+    "isForked": true
+  },
+  "wType": "Label",
+  "watchos": {
+    "font_size": 238,
+    "isForked": true
+  },
+  "windows8": {
+    "border_color": "000000ff",
+    "border_style": "custom",
+    "border_type": 0,
+    "border_width": 1,
+    "font_size": 238,
+    "isForked": true
+  },
+  "winphone8": {
+    "border_color": "000000ff",
+    "border_style": "custom",
+    "border_type": 0,
+    "border_width": 1,
+    "font_size": 238,
+    "isForked": true
+  }
+}

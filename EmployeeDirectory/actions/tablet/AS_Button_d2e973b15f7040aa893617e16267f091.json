@@ -1,0 +1,56 @@
+{
+    "AS_Button_d2e973b15f7040aa893617e16267f091": {
+        "id": "AS_Button_d2e973b15f7040aa893617e16267f091",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "directorypage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ebac7443c293431ca451ee05dea129be"
+        },
+        "actions": [{
+            "id": "MOVE_ACTION____ea5a61f1c6b84878a8f359d15519bd9d",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemKUID": "ebac7443c293431ca451ee05dea129be",
+            "widgetKUID": "c24b5178700b4529a45e5286848fa3dc",
+            "animationObject": {
+                "left": "100%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "250"
+            },
+            "start": "Immediately",
+            "animationId": "MOVE_ACTION____ea5a61f1c6b84878a8f359d15519bd9d",
+            "displayAnimationId": "MOVE_ACTION____ea5a61f1c6b84878a8f359d15519bd9d",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "ADD_SNIPPET__430d95c1e02b4130bfbb069f7245086e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "directorypage.sfimage.isVisible=true;",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "INVOKE_FUNCTION___88660882e12345979ab0d9d37021dcb4",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onClickApplyButton",
+            "display": "onClickApplyButton",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "25dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "48%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sfb97671f4094275a37e9841c6baad13",
+    "_src_": "editiconwhite.png",
+    "_top_": {
+        "type": "string",
+        "value": "62%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "25dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "profilepage",
+        "platform": "iphone",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "id": "profileeditimage",
+    "imagescalemode": 0,
+    "info": null,
+    "invokedProperty": "src",
+    "isvisible": true,
+    "kuid": "7f117efd5e9641ee9c3b6f6a27926065",
+    "name": "kony.ui.Image2",
+    "ontouchstart": "AS_Image_21eb0451bc96494e8c671d259b9d58dc",
+    "parent": "photoflex",
+    "pf": "profilepageunused",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 3
+}

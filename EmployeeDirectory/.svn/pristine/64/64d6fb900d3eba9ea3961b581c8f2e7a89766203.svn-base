@@ -1,0 +1,77 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "12.50%"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "26%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "4.60%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        13,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "",
+    "_skin_": "s87dc521854b40a9b3a2816c1e06eb36",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "59%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "90.80%"
+    },
+    "android": {},
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "s87dc521854b40a9b3a2816c1e06eb36",
+    "id": "searchbox",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "closeButtonText": "",
+            "showClearButton": false,
+            "showCloseButton": false
+        }
+    },
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "147684928d1f4e7d9c3308835fd61a1f",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "ondone": "AS_TextField_153cf23612ff4a0291a5b3a2d0cc54e9",
+    "ontextchange": "AS_TextField_21847e2f2cc84d3c930a9a90cae4c104",
+    "ontouchstart": "AS_TextField_f69352749110480a9916dced0e2dbe4d",
+    "parent": "mainflex",
+    "pf": "directorypage",
+    "placeholderskin": "s87dc521854b40a9b3a2816c1e06eb36",
+    "securetextentry": false,
+    "showclearbutton": true,
+    "textinputmode": "A",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 5
+}

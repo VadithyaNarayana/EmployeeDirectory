@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s73ab044ff5e4a89bb599e0bb8571ed2",
+    "_text_": "Button",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s73ab044ff5e4a89bb599e0bb8571ed2",
+    "id": "filterlabelbutton",
+    "info": null,
+    "isvisible": true,
+    "kuid": "60f47a6294454153b8fdde03df24f6b5",
+    "name": "kony.ui.Button",
+    "onclick": "AS_Button_7298104007944622b2ce3aaa044d74b0",
+    "parent": "filterflex",
+    "pf": "directorypage",
+    "wType": "Button",
+    "zindex": 1
+}

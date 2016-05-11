@@ -1,0 +1,23 @@
+{
+    "AS_Button_b34553eaa7614b84b977b3b1f8edd93e": {
+        "id": "AS_Button_b34553eaa7614b84b977b3b1f8edd93e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "directorypage",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ebac7443c293431ca451ee05dea129be"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__b7acfe6121a7434787cbdac428254990",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "emplist(\"E\");\nchangeskin.call(this);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "AS_Button_ef0d48629aa54cf1a6326257afb017b5": {
+        "id": "AS_Button_ef0d48629aa54cf1a6326257afb017b5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "profilepage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "4d743f38d56c431b837ff9126d252c5e"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__bfc50ea23401471f852384dabf16ee75",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "profilepage.mobiletext.text=\"\";\nprofilepage.skypetext.text=\"\";\nprofilepage.addresstext.text=\"\";\nprofilepage.timezonetext.text=\"\";\nprofilepage.groupstext.text=\"\";\nprofilepage.cancelbutton.isVisible=\"false\";\nprofilepage.donebutton.isVisible=\"false\";\nprofilepage.dataeditimage.isVisible=\"true\";\nprofilepage.mobiletext.isVisible=\"false\";\nprofilepage.skypetext.isVisible=\"false\";\nprofilepage.addresstext.isVisible=\"false\";\nprofilepage.timezonetext.isVisible=\"false\";\nprofilepage.groupstext.isVisible=\"false\";\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

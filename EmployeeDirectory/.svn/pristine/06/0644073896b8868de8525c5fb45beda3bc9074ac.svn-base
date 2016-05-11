@@ -1,0 +1,23 @@
+{
+    "AS_Button_a27646cc57c8448898ad7a251577d8af": {
+        "id": "AS_Button_a27646cc57c8448898ad7a251577d8af",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "directorypage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c63867c4976342aeb031a52c5abc8743"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__3754a1e37a3e40bb92a2d2ae13aafab0",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "salesFlexClicked();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

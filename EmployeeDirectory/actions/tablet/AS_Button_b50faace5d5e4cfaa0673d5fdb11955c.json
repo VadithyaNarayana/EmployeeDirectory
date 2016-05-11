@@ -1,0 +1,51 @@
+{
+    "AS_Button_b50faace5d5e4cfaa0673d5fdb11955c": {
+        "id": "AS_Button_b50faace5d5e4cfaa0673d5fdb11955c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "directorypage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ebac7443c293431ca451ee05dea129be"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__751466b3d08e49a9b0d5bd7a838ea706",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "directorypage.sortnameflex.isVisible=true;\ndirectorypage.filtergroupflex.isVisible=false;",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY____1a947b37aa594710891303cf36a27277",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "propertyName": "skin",
+            "propertyValue": "sortflexskin",
+            "itemKUID": "ebac7443c293431ca451ee05dea129be",
+            "widgetKUID": "eaa2624c5f734803989e61d3dbfa4a28",
+            "skinKUID": "s982a2cb1c7949fea5cb387ed9e620b2",
+            "isSkinProperty": true,
+            "currentTheme": "defaultTheme",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "SET_FORM_WIDGET_PROPERTY____b16a783832044b178f23bbc73d1f31e6",
+            "type": "SET_WIDGET_PROPERTY",
+            "itemType": "FORM",
+            "propertyName": "skin",
+            "propertyValue": "filterflexskin",
+            "itemKUID": "ebac7443c293431ca451ee05dea129be",
+            "widgetKUID": "ffadbf1090b2408999f5ce08ee2ffed1",
+            "skinKUID": "seb037b6ddc04ba78f847aa7d7a2b92d",
+            "isSkinProperty": true,
+            "currentTheme": "defaultTheme",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

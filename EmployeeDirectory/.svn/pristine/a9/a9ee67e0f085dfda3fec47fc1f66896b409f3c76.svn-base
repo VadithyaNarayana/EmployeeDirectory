@@ -1,0 +1,20 @@
+{
+    "AS_TextField_21847e2f2cc84d3c930a9a90cae4c104": {
+        "id": "AS_TextField_21847e2f2cc84d3c930a9a90cae4c104",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "actions": [{
+            "id": "ADD_SNIPPET__b37edab29b4a47c3b8f20c04ac8284df",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(directorypage.searchbox.text === \"\")\n  {\n    directorypage.searchinvis.isVisible=true;\n  }\nsearchCondition(directorypage.searchbox.text);\ndirectorypage.buttonsflex.isVisible=false;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

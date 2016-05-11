@@ -1,0 +1,1044 @@
+function addWidgetsdetailspage() {
+    detailspage.setDefaultUnit(kony.flex.DP);
+    var photoflex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "42.25%",
+        "id": "photoflex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "mflex",
+        "top": "0%",
+        "width": "100%",
+        "zIndex": 2
+    }, {}, {});
+    photoflex.setDefaultUnit(kony.flex.DP);
+    var photoflex1 = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "bottom": "0%",
+        "clipBounds": true,
+        "height": "35.40%",
+        "id": "photoflex1",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "mbeforeanim",
+        "top": "64.60%",
+        "width": "100%",
+        "zIndex": 2
+    }, {}, {});
+    photoflex1.setDefaultUnit(kony.flex.DP);
+    var empname = new kony.ui.Label({
+        "height": "20%",
+        "id": "empname",
+        "isVisible": true,
+        "left": "10%",
+        "skin": "belabel",
+        "text": "Alfred Kevin",
+        "top": "50%",
+        "width": "80%",
+        "zIndex": 2
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var designationlabel = new kony.ui.Label({
+        "height": "20%",
+        "id": "designationlabel",
+        "isVisible": true,
+        "left": "25%",
+        "skin": "bdlabel",
+        "text": "program manager",
+        "top": "71%",
+        "width": "50%",
+        "zIndex": 2
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_TOP_CENTER,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    photoflex1.add(
+    empname, designationlabel);
+    var flxImgBdg = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "35%",
+        "id": "flxImgBdg",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "37.50%",
+        "skin": "slFbox",
+        "top": "45.60%",
+        "width": "25%",
+        "zIndex": 2
+    }, {}, {});
+    flxImgBdg.setDefaultUnit(kony.flex.DP);
+    var employeeimage = new kony.ui.Image2({
+        "height": "100%",
+        "id": "employeeimage",
+        "isVisible": true,
+        "left": "0.00%",
+        "skin": "slImage",
+        "src": "image1.png",
+        "top": "0.18%",
+        "width": "100%",
+        "zIndex": 2
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    var onlineimage = new kony.ui.Image2({
+        "height": "18%",
+        "id": "onlineimage",
+        "isVisible": true,
+        "left": "74%",
+        "skin": "slImage",
+        "src": "available.png",
+        "top": "77%",
+        "width": "20%",
+        "zIndex": 2
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    flxImgBdg.add(
+    employeeimage, onlineimage);
+    photoflex.add(
+    photoflex1, flxImgBdg);
+    var backimage = new kony.ui.Image2({
+        "height": "18dp",
+        "id": "backimage",
+        "isVisible": true,
+        "left": "4%",
+        "skin": "slImage",
+        "src": "backwhite.png",
+        "top": "2%",
+        "width": "14dp",
+        "zIndex": 3
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    var backbutton = new kony.ui.Button({
+        "focusSkin": "btn3",
+        "height": "4.50%",
+        "id": "backbutton",
+        "isVisible": true,
+        "left": "3%",
+        "onClick": AS_Button_87514f6bbae048efba09b1fd231a7383,
+        "skin": "btn3",
+        "top": "1.50%",
+        "width": "6%",
+        "zIndex": 4
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var categoryflex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "10%",
+        "id": "categoryflex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "categoryskin",
+        "top": "42.25%",
+        "width": "100%",
+        "zIndex": 10
+    }, {}, {});
+    categoryflex.setDefaultUnit(kony.flex.DP);
+    var detailsoption = new kony.ui.Label({
+        "id": "detailsoption",
+        "isVisible": true,
+        "left": "17%",
+        "skin": "tlabvis",
+        "text": kony.i18n.getLocalizedString("i18n.details.text"),
+        "top": "36%",
+        "width": kony.flex.USE_PREFFERED_SIZE
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var hierarchyoption = new kony.ui.Label({
+        "id": "hierarchyoption",
+        "isVisible": true,
+        "left": "65%",
+        "skin": "tlabinvis",
+        "text": kony.i18n.getLocalizedString("i18n.hierarchy.text"),
+        "top": "36%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var seperatorlabel = new kony.ui.Label({
+        "height": "100%",
+        "id": "seperatorlabel",
+        "isVisible": true,
+        "left": "50%",
+        "skin": "CopyslLabel0639e8bb30d8b48",
+        "top": "0%",
+        "width": "1px",
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var detailscolor = new kony.ui.Label({
+        "height": "7%",
+        "id": "detailscolor",
+        "isVisible": true,
+        "left": "0%",
+        "skin": "colorvis",
+        "top": "93%",
+        "width": "50%",
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var detailsbutton = new kony.ui.Button({
+        "focusSkin": "btn4",
+        "height": "50%",
+        "id": "detailsbutton",
+        "isVisible": true,
+        "left": "12%",
+        "onClick": AS_Button_1d4047b8c138474abab3c1f3148cfd6f,
+        "skin": "btn4",
+        "top": "30%",
+        "width": "25%",
+        "zIndex": 2
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var heirarchybutton = new kony.ui.Button({
+        "focusSkin": "btn4",
+        "height": "50%",
+        "id": "heirarchybutton",
+        "isVisible": true,
+        "left": "60%",
+        "onClick": AS_Button_e63cfe38ed1f42a29dded0880b46e45c,
+        "skin": "CopyslButtonGlossBlue07f47866a9bbb42",
+        "top": "30%",
+        "width": "28%",
+        "zIndex": 2
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    categoryflex.add(
+    detailsoption, hierarchyoption, seperatorlabel, detailscolor, detailsbutton, heirarchybutton);
+    var totalscroll = new kony.ui.FlexScrollContainer({
+        "allowHorizontalBounce": true,
+        "allowVerticalBounce": true,
+        "bounces": false,
+        "clipBounds": true,
+        "enableScrolling": true,
+        "height": "68.80%",
+        "horizontalScrollIndicator": true,
+        "id": "totalscroll",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "onScrollTouchReleased": AS_FlexScrollContainer_c4e46231e713442ea6428b3bc2ca195d,
+        "onScrolling": AS_FlexScrollContainer_ca22993d2a69417192e3bb2108667f0a,
+        "onTouchMove": AS_FlexScrollContainer_7cad1fdbc3c643269cb39caef6a75677,
+        "pagingEnabled": false,
+        "scrollDirection": kony.flex.SCROLL_VERTICAL,
+        "skin": "CopyslFSbox0b0c37547df5441",
+        "top": "52.25%",
+        "verticalScrollIndicator": false,
+        "width": "100%",
+        "zIndex": 3
+    }, {}, {
+        "bouncesZoom": false
+    });
+    totalscroll.setDefaultUnit(kony.flex.DP);
+    var d1flex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "14%",
+        "id": "d1flex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "onTouchStart": AS_FlexContainer_466c706085014cc0ac6f217984a9e00b,
+        "skin": "CopyslFbox05546f80c346049",
+        "top": "0%",
+        "width": "100%",
+        "zIndex": 1
+    }, {}, {});
+    d1flex.setDefaultUnit(kony.flex.DP);
+    var titlec = new kony.ui.Label({
+        "id": "titlec",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "majortitle",
+        "text": kony.i18n.getLocalizedString("i18n.title.text"),
+        "top": "22.70%",
+        "width": kony.flex.USE_PREFFERED_SIZE
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var titlecc = new kony.ui.Label({
+        "id": "titlecc",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "CopyslLabel0a8469a64faad45",
+        "text": "Program Manager",
+        "top": "55%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    d1flex.add(
+    titlec, titlecc);
+    var d2flex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "14%",
+        "id": "d2flex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "onTouchStart": AS_FlexContainer_831fcbfbc3334d978535e7343ec04626,
+        "skin": "CopyslFbox0f47f1ea0224a48",
+        "top": "14%",
+        "width": "100%",
+        "zIndex": 1
+    }, {}, {});
+    d2flex.setDefaultUnit(kony.flex.DP);
+    var reportingto = new kony.ui.Label({
+        "id": "reportingto",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "majortitle",
+        "text": kony.i18n.getLocalizedString("i18n.reportingto.text"),
+        "top": "10%",
+        "width": kony.flex.USE_PREFFERED_SIZE
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var reportingtoc = new kony.ui.Label({
+        "id": "reportingtoc",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "CopyslLabel0a8469a64faad45",
+        "text": "Surya petravu",
+        "top": "55%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var mimage = new kony.ui.Image2({
+        "height": "28dp",
+        "id": "mimage",
+        "isVisible": true,
+        "left": "85%",
+        "skin": "slImage",
+        "src": "image1.png",
+        "top": "40%",
+        "width": "28dp",
+        "zIndex": 1
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    d2flex.add(
+    reportingto, reportingtoc, mimage);
+    var d3flex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "14%",
+        "id": "d3flex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "onTouchStart": AS_FlexContainer_e4ab88453dee41189089abdd22b4d4cd,
+        "skin": "CopyslFbox02eda33c24b6d42",
+        "top": "28%",
+        "width": "100%",
+        "zIndex": 1
+    }, {}, {});
+    d3flex.setDefaultUnit(kony.flex.DP);
+    var department = new kony.ui.Label({
+        "id": "department",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "majortitle",
+        "text": kony.i18n.getLocalizedString("i18n.department.text"),
+        "top": "10%",
+        "width": kony.flex.USE_PREFFERED_SIZE
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var departmentc = new kony.ui.Label({
+        "id": "departmentc",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "CopyslLabel0a8469a64faad45",
+        "text": "Release Management",
+        "top": "55%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    d3flex.add(
+    department, departmentc);
+    var d4flex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "14%",
+        "id": "d4flex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "onTouchStart": AS_FlexContainer_1e31d1f830e2407ab39110922f6b77c8,
+        "skin": "CopyslFbox07fd0983ed49e49",
+        "top": "42%",
+        "width": "100%",
+        "zIndex": 1
+    }, {}, {});
+    d4flex.setDefaultUnit(kony.flex.DP);
+    var emptype = new kony.ui.Label({
+        "id": "emptype",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "majortitle",
+        "text": kony.i18n.getLocalizedString("i18n.emptype.text"),
+        "top": "10%",
+        "width": kony.flex.USE_PREFFERED_SIZE
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var emptypec = new kony.ui.Label({
+        "id": "emptypec",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "CopyslLabel0a8469a64faad45",
+        "text": "Customer Facing",
+        "top": "55%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    d4flex.add(
+    emptype, emptypec);
+    var d5flex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "14%",
+        "id": "d5flex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "CopyslFbox0e83e2e5ac1f54d",
+        "top": "56%",
+        "width": "100%",
+        "zIndex": 1
+    }, {}, {});
+    d5flex.setDefaultUnit(kony.flex.DP);
+    var wks = new kony.ui.Label({
+        "id": "wks",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "majortitle",
+        "text": kony.i18n.getLocalizedString("i18n.wks.text"),
+        "top": "10%",
+        "width": kony.flex.USE_PREFFERED_SIZE
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var wksc = new kony.ui.Label({
+        "id": "wksc",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "CopyslLabel0a8469a64faad45",
+        "text": "D7-132",
+        "top": "55%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    d5flex.add(
+    wks, wksc);
+    var d6flex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "14%",
+        "id": "d6flex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "CopyslFbox01b98fd5712aa4d",
+        "top": "70%",
+        "width": "100%",
+        "zIndex": 1
+    }, {}, {});
+    d6flex.setDefaultUnit(kony.flex.DP);
+    var location = new kony.ui.Label({
+        "id": "location",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "majortitle",
+        "text": kony.i18n.getLocalizedString("i18n.location.text"),
+        "top": "10%",
+        "width": kony.flex.USE_PREFFERED_SIZE
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var locationc = new kony.ui.Label({
+        "id": "locationc",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "CopyslLabel0a8469a64faad45",
+        "text": "7th floor,phoenix infocity",
+        "top": "55%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var limage = new kony.ui.Image2({
+        "height": "36dp",
+        "id": "limage",
+        "isVisible": true,
+        "left": "84%",
+        "skin": "slImage",
+        "src": "mappin.png",
+        "top": "40%",
+        "width": "36dp",
+        "zIndex": 1
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_MAINTAIN_ASPECT_RATIO,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    d6flex.add(
+    location, locationc, limage);
+    var d7flex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "14%",
+        "id": "d7flex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "CopyslFbox0234f2695b64940",
+        "top": "84%",
+        "width": "100%",
+        "zIndex": 1
+    }, {}, {});
+    d7flex.setDefaultUnit(kony.flex.DP);
+    var mobile = new kony.ui.Label({
+        "id": "mobile",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "majortitle",
+        "text": kony.i18n.getLocalizedString("i18n.mobile.text"),
+        "top": "10%",
+        "width": kony.flex.USE_PREFFERED_SIZE
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var mobilec = new kony.ui.Label({
+        "id": "mobilec",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "CopyslLabel0a8469a64faad45",
+        "text": "9999999999",
+        "top": "55%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var mobileimage = new kony.ui.Image2({
+        "height": "36dp",
+        "id": "mobileimage",
+        "isVisible": true,
+        "left": "84%",
+        "skin": "slImage",
+        "src": "listphone.png",
+        "top": "40%",
+        "width": "36dp",
+        "zIndex": 1
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_MAINTAIN_ASPECT_RATIO,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    d7flex.add(
+    mobile, mobilec, mobileimage);
+    var d8flex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "14%",
+        "id": "d8flex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "CopyslFbox0e5e59942e05c4f",
+        "top": "98%",
+        "width": "100%",
+        "zIndex": 1
+    }, {}, {});
+    d8flex.setDefaultUnit(kony.flex.DP);
+    var email = new kony.ui.Label({
+        "id": "email",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "majortitle",
+        "text": kony.i18n.getLocalizedString("i18n.email.text"),
+        "top": "10%",
+        "width": kony.flex.USE_PREFFERED_SIZE
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var emailc = new kony.ui.Label({
+        "id": "emailc",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "CopyslLabel0a8469a64faad45",
+        "text": "bala.carcharla@kony.com",
+        "top": "55%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var mailimage = new kony.ui.Image2({
+        "height": "36dp",
+        "id": "mailimage",
+        "isVisible": true,
+        "left": "84%",
+        "skin": "slImage",
+        "src": "mailicon.png",
+        "top": "40%",
+        "width": "36dp",
+        "zIndex": 1
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_MAINTAIN_ASPECT_RATIO,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    d8flex.add(
+    email, emailc, mailimage);
+    var d9flex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "14%",
+        "id": "d9flex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "CopyslFbox0ff31535ecbda41",
+        "top": "112%",
+        "width": "100%",
+        "zIndex": 1
+    }, {}, {});
+    d9flex.setDefaultUnit(kony.flex.DP);
+    var skype = new kony.ui.Label({
+        "id": "skype",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "majortitle",
+        "text": kony.i18n.getLocalizedString("i18n.skype.text"),
+        "top": "10%",
+        "width": kony.flex.USE_PREFFERED_SIZE
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var skypec = new kony.ui.Label({
+        "id": "skypec",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "CopyslLabel0a8469a64faad45",
+        "text": "bala.carcharla",
+        "top": "55%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var skypeimage = new kony.ui.Image2({
+        "height": "36dp",
+        "id": "skypeimage",
+        "isVisible": true,
+        "left": "84%",
+        "skin": "slImage",
+        "src": "listskypeicon.png",
+        "top": "40%",
+        "width": "36dp",
+        "zIndex": 1
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_MAINTAIN_ASPECT_RATIO,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    d9flex.add(
+    skype, skypec, skypeimage);
+    var d10flex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "14%",
+        "id": "d10flex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "CopyslFbox0c8f55d2bbbd643",
+        "top": "126%",
+        "width": "100%",
+        "zIndex": 1
+    }, {}, {});
+    d10flex.setDefaultUnit(kony.flex.DP);
+    var address = new kony.ui.Label({
+        "id": "address",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "majortitle",
+        "text": kony.i18n.getLocalizedString("i18n.address.text"),
+        "top": "10%",
+        "width": kony.flex.USE_PREFFERED_SIZE
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var addressc = new kony.ui.Label({
+        "id": "addressc",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "CopyslLabel0a8469a64faad45",
+        "text": "miyapur,Hyderabad",
+        "top": "55%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    d10flex.add(
+    address, addressc);
+    var d11flex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "14%",
+        "id": "d11flex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "CopyslFbox0f4c63595a82a49",
+        "top": "140%",
+        "width": "100%",
+        "zIndex": 1
+    }, {}, {});
+    d11flex.setDefaultUnit(kony.flex.DP);
+    var Timezone = new kony.ui.Label({
+        "id": "Timezone",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "majortitle",
+        "text": kony.i18n.getLocalizedString("i18n.timezone.text"),
+        "top": "10%",
+        "width": kony.flex.USE_PREFFERED_SIZE
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var Timezonec = new kony.ui.Label({
+        "id": "Timezonec",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "CopyslLabel0a8469a64faad45",
+        "text": "IST + 5.30",
+        "top": "55%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    d11flex.add(
+    Timezone, Timezonec);
+    var d12flex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "14%",
+        "id": "d12flex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "CopyslFbox0da859cbf4cf04d",
+        "top": "154%",
+        "width": "100%",
+        "zIndex": 1
+    }, {}, {});
+    d12flex.setDefaultUnit(kony.flex.DP);
+    var Groups = new kony.ui.Label({
+        "id": "Groups",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "majortitle",
+        "text": kony.i18n.getLocalizedString("i18n.group.text"),
+        "top": "10%",
+        "width": kony.flex.USE_PREFFERED_SIZE
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var Groupsc = new kony.ui.Label({
+        "id": "Groupsc",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "CopyslLabel0a8469a64faad45",
+        "text": "Cycling,Trecking and Adventure",
+        "top": "55%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    d12flex.add(
+    Groups, Groupsc);
+    totalscroll.add(
+    d1flex, d2flex, d3flex, d4flex, d5flex, d6flex, d7flex, d8flex, d9flex, d10flex, d11flex, d12flex);
+    var staticimage = new kony.ui.Image2({
+        "height": "42.25%",
+        "id": "staticimage",
+        "isVisible": true,
+        "left": "0%",
+        "skin": "CopyslImage01d6792abb70340",
+        "src": "profilebanner2.png",
+        "top": "0%",
+        "width": "100%"
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    var flxScrollSegment = new kony.ui.FlexScrollContainer({
+        "allowHorizontalBounce": true,
+        "allowVerticalBounce": true,
+        "bounces": false,
+        "clipBounds": true,
+        "enableScrolling": true,
+        "height": "68.80%",
+        "horizontalScrollIndicator": true,
+        "id": "flxScrollSegment",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "100%",
+        "onScrollTouchReleased": AS_FlexScrollContainer_804a9d72cbae4e149f715ecd714bdb32,
+        "onScrolling": AS_FlexScrollContainer_3ad3d71345904703afb417764af55239,
+        "onTouchMove": AS_FlexScrollContainer_5ff3041176364e1d8027ae765319848d,
+        "pagingEnabled": false,
+        "scrollDirection": kony.flex.SCROLL_VERTICAL,
+        "skin": "slFSbox",
+        "top": "52.25%",
+        "verticalScrollIndicator": true,
+        "width": "100%",
+        "zIndex": 3
+    }, {}, {
+        "bouncesZoom": false
+    });
+    flxScrollSegment.setDefaultUnit(kony.flex.DP);
+    flxScrollSegment.add();
+    detailspage.add(
+    photoflex, backimage, backbutton, categoryflex, totalscroll, staticimage, flxScrollSegment);
+};
+
+function detailspageGlobals() {
+    detailspage = new kony.ui.Form2({
+        "addWidgets": addWidgetsdetailspage,
+        "bounces": false,
+        "enableScrolling": false,
+        "enabledForIdleTimeout": false,
+        "id": "detailspage",
+        "layoutType": kony.flex.FREE_FORM,
+        "needAppMenu": false,
+        "postShow": AS_Form_c8ae0453feac4b139192a6e698c920a1,
+        "preShow": AS_Form_6da965d0c1384480841bdaf877ad3696,
+        "skin": "CopyslForm0218cac155ee349",
+        "statusBarHidden": true
+    }, {
+        "displayOrientation": constants.FORM_DISPLAY_ORIENTATION_PORTRAIT,
+        "layoutType": kony.flex.FREE_FORM,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "bounces": false,
+        "configureExtendBottom": false,
+        "configureExtendTop": false,
+        "configureStatusBarStyle": false,
+        "footerOverlap": false,
+        "formTransparencyDuringPostShow": "100",
+        "headerOverlap": false,
+        "inputAccessoryViewType": constants.FORM_INPUTACCESSORYVIEW_CANCEL,
+        "needsIndicatorDuringPostShow": false,
+        "retainScrollPosition": false,
+        "titleBar": false
+    });
+};

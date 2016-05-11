@@ -1,0 +1,117 @@
+function originalpos(eventobject, x, y) {
+    return AS_FlexContainer_d70b573dd8e342218c71f6b8f903b2a7(eventobject, x, y);
+}
+
+function AS_FlexContainer_d70b573dd8e342218c71f6b8f903b2a7(eventobject, x, y) {
+    function MOVE_ACTION____d1845167c46a42bfbab607fc8c8e3c1a_Callback() {}
+    function TRANSFORM_ACTION____02520d0ea7174900a198d50c116bc6a8_Callback() {
+        __missing_id__["__missing_id__"].animate(
+        kony.ui.createAnimation({
+            "100": {
+                "top": "43%",
+                "left": "40%",
+                "stepConfig": {
+                    "timingFunction": kony.anim.EASE
+                }
+            }
+        }), {
+            "delay": 0,
+            "iterationCount": 1,
+            "fillMode": kony.anim.FILL_MODE_FORWARDS,
+            "duration": 0.25
+        }, {
+            "animationEnd": MOVE_ACTION____d1845167c46a42bfbab607fc8c8e3c1a_Callback
+        });
+    }
+    function SCALE_ACTION____82af89ec00f94beab64f440ce8a8a45b_Callback() {}
+    function MOVE_ACTION____f86ec66c8e704a7fa22f40e929b7a0e3_Callback() {
+        __missing_id__["__missing_id__"].animate(
+        kony.ui.createAnimation({
+            "100": {
+                "stepConfig": {
+                    "timingFunction": kony.anim.EASE
+                },
+                "width": "100%",
+                "height": "50%"
+            }
+        }), {
+            "delay": 0,
+            "iterationCount": 1,
+            "fillMode": kony.anim.FILL_MODE_FORWARDS,
+            "duration": 0.25
+        }, {
+            "animationEnd": SCALE_ACTION____82af89ec00f94beab64f440ce8a8a45b_Callback
+        });
+    }
+    function MOVE_ACTION____3bf8707be7384f95a7a7bb59a6b065f8_Callback() {}
+    function MOVE_ACTION____00697b3686fc4cf08b0c9b3efb766c68_Callback() {}
+    __missing_id__["__missing_id__"].animate(
+    kony.ui.createAnimation({
+        "100": {
+            "top": "0%",
+            "left": "0%",
+            "stepConfig": {
+                "timingFunction": kony.anim.EASE
+            }
+        }
+    }), {
+        "delay": 0,
+        "iterationCount": 1,
+        "fillMode": kony.anim.FILL_MODE_FORWARDS,
+        "duration": 0.5
+    }, {
+        "animationEnd": MOVE_ACTION____f86ec66c8e704a7fa22f40e929b7a0e3_Callback
+    });
+    var trans100 = kony.ui.makeAffineTransform();
+    trans100.scale(1, 1);
+    __missing_id__["__missing_id__"].animate(
+    kony.ui.createAnimation({
+        "100": {
+            "stepConfig": {
+                "timingFunction": kony.anim.EASE
+            },
+            "transform": trans100
+        }
+    }), {
+        "delay": 0,
+        "iterationCount": 1,
+        "fillMode": kony.anim.FILL_MODE_FORWARDS,
+        "duration": 0.25
+    }, {
+        "animationEnd": TRANSFORM_ACTION____02520d0ea7174900a198d50c116bc6a8_Callback
+    });
+    __missing_id__["__missing_id__"].animate(
+    kony.ui.createAnimation({
+        "100": {
+            "top": "80%",
+            "left": "40%",
+            "stepConfig": {
+                "timingFunction": kony.anim.EASE
+            }
+        }
+    }), {
+        "delay": 0,
+        "iterationCount": 1,
+        "fillMode": kony.anim.FILL_MODE_FORWARDS,
+        "duration": 0.25
+    }, {
+        "animationEnd": MOVE_ACTION____00697b3686fc4cf08b0c9b3efb766c68_Callback
+    });
+    __missing_id__["__missing_id__"].animate(
+    kony.ui.createAnimation({
+        "100": {
+            "top": "89%",
+            "left": "38%",
+            "stepConfig": {
+                "timingFunction": kony.anim.EASE
+            }
+        }
+    }), {
+        "delay": 0,
+        "iterationCount": 1,
+        "fillMode": kony.anim.FILL_MODE_FORWARDS,
+        "duration": 0.25
+    }, {
+        "animationEnd": MOVE_ACTION____3bf8707be7384f95a7a7bb59a6b065f8_Callback
+    });
+}

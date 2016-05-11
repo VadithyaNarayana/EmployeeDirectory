@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "58.89%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "13%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s73ab044ff5e4a89bb599e0bb8571ed2",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "23.11%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "13.19%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s73ab044ff5e4a89bb599e0bb8571ed2",
+    "id": "hrbutton",
+    "info": null,
+    "isvisible": true,
+    "kuid": "1651571b35924a368638d15c9a821f83",
+    "name": "kony.ui.Button",
+    "onclick": "AS_Button_6daef5c5032b44868e91a524b1adf10c",
+    "parent": "hrflex",
+    "pf": "directorypage",
+    "wType": "Button",
+    "zindex": 2
+}

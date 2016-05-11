@@ -1,0 +1,54 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "1px"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s7c38ab59c06460ba76f9073d9caa76b",
+    "_top_": {
+        "type": "string",
+        "value": "99%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "ColorFlexSort",
+    "info": null,
+    "isvisible": true,
+    "kuid": "4d7308213d9d4b299f6d9bb691ac24d5",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "sortnameflex",
+    "pf": "directorypage",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1
+}

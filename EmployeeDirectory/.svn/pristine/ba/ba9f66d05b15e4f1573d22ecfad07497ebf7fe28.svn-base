@@ -1,0 +1,75 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "65dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_render_": true,
+    "_skin_": "sb238ae3c7fe4868b18a2e897e7f3819",
+    "_src_": "image1.png",
+    "_top_": {
+        "type": "string",
+        "value": "12dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "65dp"
+    },
+    "android": {
+        "render": true
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "15%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerId": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "tablet",
+        "platform": "ipad",
+        "templateType": "segments",
+        "topLevelBox": null
+    },
+    "id": "empimage",
+    "imagescalemode": 0,
+    "info": null,
+    "invokedProperty": "src",
+    "ipad": {
+        "render": true
+    },
+    "isvisible": true,
+    "kuid": "5084acdd8d974f908aee77dc85e683bb",
+    "name": "kony.ui.Image2",
+    "parent": "datacontainer1",
+    "pf": "sectiondatatemplate",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "windows8": {
+        "render": true
+    }
+}

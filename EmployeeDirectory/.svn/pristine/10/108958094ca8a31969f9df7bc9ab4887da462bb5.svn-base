@@ -1,0 +1,31 @@
+{
+    "AS_FlexContainer_0131c09cdff14c88b46be4ad32036c06": {
+        "id": "AS_FlexContainer_0131c09cdff14c88b46be4ad32036c06",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "profilepageunused",
+            "type": "forms",
+            "platform": "",
+            "KUID": "72a3378da1cf43ac93642a74d650f38e"
+        },
+        "actions": [{
+            "id": "INVOKE_FUNCTION___ee7f953b122b49818d84c5016eb3e059",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "fcontainertouch1",
+            "display": "fcontainertouch1",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

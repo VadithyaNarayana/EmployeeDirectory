@@ -1,0 +1,65 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "8.70%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "10%"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s8b845ba61ef4e6680878d926030a71f",
+    "_text_": "Alfred Kevin",
+    "_top_": {
+        "type": "string",
+        "value": "81%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 2,
+    "id": "empname",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "iphone": {
+        "psp": {
+            "wrapping": 2
+        }
+    },
+    "isvisible": true,
+    "kuid": "65125e17c6bd46a7815e0167bcc6e13f",
+    "name": "kony.ui.Label",
+    "parent": "photoflex",
+    "pf": "profilepageunused",
+    "tooltip": "",
+    "wType": "Label",
+    "zindex": 2
+}

@@ -1,0 +1,34 @@
+{
+    "AS_Button_98be07e73b2e42f2bd7737837efb5956": {
+        "id": "AS_Button_98be07e73b2e42f2bd7737837efb5956",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "detailspage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "76e332557d5e47c897c3d2bc1d17bbad"
+        },
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___71a720442fb14e8f9adf9ee18ee4f72b",
+            "type": "NAVIGATE_TO_FORM",
+            "formKUID": "ebac7443c293431ca451ee05dea129be",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }, {
+            "id": "INVOKE_FUNCTION___06dcc20858614692b7ceae6186ddffcd",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "fcontainertouch",
+            "display": "fcontainertouch",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

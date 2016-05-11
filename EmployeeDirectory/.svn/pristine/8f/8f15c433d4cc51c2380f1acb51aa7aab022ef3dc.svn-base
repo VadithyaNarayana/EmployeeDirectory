@@ -1,0 +1,127 @@
+function initializesectiondatatemplate() {
+    maincontainer = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "27.40%",
+        "id": "maincontainer",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "skin": "sknMainContainer"
+    }, {}, {});
+    maincontainer.setDefaultUnit(kony.flex.DP);
+    var datacontainer1 = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "101%",
+        "id": "datacontainer1",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "15%",
+        "skin": "imp1",
+        "top": "-0.50%",
+        "width": "84.50%"
+    }, {}, {});
+    datacontainer1.setDefaultUnit(kony.flex.DP);
+    var empimage = new kony.ui.Image2({
+        "centerY": "50%",
+        "height": "65%",
+        "id": "empimage",
+        "isVisible": true,
+        "left": "8%",
+        "skin": "CopyslImage012bc62bb235d47",
+        "src": "image1.png",
+        "width": "19%"
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    var empname = new kony.ui.Label({
+        "id": "empname",
+        "isVisible": true,
+        "left": "35%",
+        "skin": "generalskin",
+        "text": "Acker,clara",
+        "top": "18%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 2
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_TOP_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var designation = new kony.ui.Label({
+        "id": "designation",
+        "isVisible": true,
+        "left": "35%",
+        "skin": "sknDesignationTemp",
+        "text": "Designation",
+        "top": "45%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 2
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var department = new kony.ui.Label({
+        "id": "department",
+        "isVisible": true,
+        "left": "35%",
+        "skin": "sknDepartmentTemp",
+        "text": "Department",
+        "top": "70%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 2
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var onlineimage = new kony.ui.Image2({
+        "height": "12%",
+        "id": "onlineimage",
+        "isVisible": true,
+        "left": "21%",
+        "skin": "slImage",
+        "src": "slider.png",
+        "top": "70%",
+        "width": "4%",
+        "zIndex": 2
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    datacontainer1.add(
+    empimage, empname, designation, department, onlineimage);
+    var headerdotlabel = new kony.ui.Label({
+        "height": "100%",
+        "id": "headerdotlabel",
+        "isVisible": true,
+        "left": "7.00%",
+        "skin": "sknSectionHeaderLine",
+        "text": "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||",
+        "top": "0%",
+        "width": "1px",
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_TOP_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    maincontainer.add(
+    datacontainer1, headerdotlabel);
+}

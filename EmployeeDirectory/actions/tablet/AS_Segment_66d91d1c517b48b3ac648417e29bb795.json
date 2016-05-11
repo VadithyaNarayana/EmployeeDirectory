@@ -1,0 +1,25 @@
+{
+    "AS_Segment_66d91d1c517b48b3ac648417e29bb795": {
+        "id": "AS_Segment_66d91d1c517b48b3ac648417e29bb795",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "profilepage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "4d743f38d56c431b837ff9126d252c5e"
+        },
+        "actions": [{
+            "id": "INVOKE_FUNCTION___aefe0d1c8dc846bfb15477e794bd5db4",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "fcontainertouch1",
+            "display": "fcontainertouch1",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "60%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sdef6ba6f1eb4d14b1416e2fd2659408",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "20%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sa4b84b95f024a95b0d7af89339435c9",
+    "id": "cancelbutton",
+    "info": null,
+    "isvisible": false,
+    "kuid": "df7c54f33a9349998cad8007c7e3a457",
+    "name": "kony.ui.Button",
+    "onclick": "AS_Button_bd3eb50669174c269c2d006a4103941e",
+    "parent": "dataeditflex",
+    "pf": "profilepageunused",
+    "texti18n": "i18n.cancel.text",
+    "wType": "Button"
+}

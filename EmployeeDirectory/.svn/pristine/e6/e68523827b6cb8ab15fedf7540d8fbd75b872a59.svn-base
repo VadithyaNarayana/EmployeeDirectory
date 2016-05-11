@@ -1,0 +1,66 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "13dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "66dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sfb97671f4094275a37e9841c6baad13",
+    "_src_": "slider.png",
+    "_top_": {
+        "type": "string",
+        "value": "61dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "13dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "18.50%"
+    },
+    "centery": {
+        "type": "string",
+        "value": "60%"
+    },
+    "containerId": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "tablet",
+        "platform": "ipad",
+        "templateType": "segments",
+        "topLevelBox": null
+    },
+    "id": "onlineimage",
+    "imagescalemode": 0,
+    "info": null,
+    "invokedProperty": "src",
+    "isvisible": true,
+    "kuid": "59d39a644923430882e0a18c621a9d0c",
+    "name": "kony.ui.Image2",
+    "parent": "datacontainer1",
+    "pf": "sectiondatatemplate",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 2
+}

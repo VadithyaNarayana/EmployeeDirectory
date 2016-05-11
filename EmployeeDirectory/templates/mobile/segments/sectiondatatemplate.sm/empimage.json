@@ -1,0 +1,79 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "65%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "8%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_render_": true,
+    "_skin_": "sb238ae3c7fe4868b18a2e897e7f3819",
+    "_src_": "image1.png",
+    "_width_": {
+        "type": "string",
+        "value": "19%"
+    },
+    "android": {
+        "render": true
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerId": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "platform": "android",
+        "templateType": "segments",
+        "topLevelBox": null
+    },
+    "id": "empimage",
+    "imagescalemode": 0,
+    "info": null,
+    "invokedProperty": "src",
+    "iphone": {
+        "render": true
+    },
+    "isvisible": true,
+    "kuid": "abd86a9af1c345489ead8e00859ede32",
+    "name": "kony.ui.Image2",
+    "parent": "datacontainer1",
+    "pf": "sectiondatatemplate",
+    "spaan": {
+        "render": true
+    },
+    "spabb": {
+        "render": true
+    },
+    "spaip": {
+        "render": true
+    },
+    "spawinphone8": {
+        "render": true
+    },
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "winphone8": {
+        "render": true
+    }
+}

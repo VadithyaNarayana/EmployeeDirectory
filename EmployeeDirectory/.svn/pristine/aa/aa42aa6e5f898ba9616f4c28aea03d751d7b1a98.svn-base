@@ -1,0 +1,197 @@
+{
+    "AS_FlexContainer_d70b573dd8e342218c71f6b8f903b2a7": {
+        "id": "AS_FlexContainer_d70b573dd8e342218c71f6b8f903b2a7",
+        "type": "ACTION_SEQUENCE",
+        "name": "originalpos",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "directorypage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e7e7af553a2f44f9aa7bd693fce73149"
+        },
+        "actions": [{
+            "id": "MOVE_ACTION____f86ec66c8e704a7fa22f40e929b7a0e3",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "__missing_id__",
+            "widgetId": "__missing_id__",
+            "itemKUID": "e7e7af553a2f44f9aa7bd693fce73149",
+            "widgetKUID": "03c8841e7a6a4a83b6b6dccc6188b69e",
+            "animationObject": {
+                "top": "0%",
+                "left": "0%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "500"
+            },
+            "start": "Immediately",
+            "animationId": "MOVE_ACTION____f86ec66c8e704a7fa22f40e929b7a0e3",
+            "displayAnimationId": "MOVE_ACTION____f86ec66c8e704a7fa22f40e929b7a0e3",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "TRANSFORM_ACTION____02520d0ea7174900a198d50c116bc6a8",
+            "type": "TRANSFORM_ACTION",
+            "itemType": "FORM",
+            "itemId": "__missing_id__",
+            "widgetId": "__missing_id__",
+            "itemKUID": "e7e7af553a2f44f9aa7bd693fce73149",
+            "widgetKUID": "ef7c3335823a4293b4a204d8022ebfb6",
+            "animationObject": {
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                },
+                "width": "1dp",
+                "height": "1dp"
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "250"
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION____f86ec66c8e704a7fa22f40e929b7a0e3",
+            "animationId": "TRANSFORM_ACTION____02520d0ea7174900a198d50c116bc6a8",
+            "displayAnimationId": "TRANSFORM_ACTION____02520d0ea7174900a198d50c116bc6a8",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "MOVE_ACTION____00697b3686fc4cf08b0c9b3efb766c68",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "__missing_id__",
+            "widgetId": "__missing_id__",
+            "itemKUID": "e7e7af553a2f44f9aa7bd693fce73149",
+            "widgetKUID": "2dc1f279648e4263b3b5bba31fb30208",
+            "animationObject": {
+                "top": "80%",
+                "left": "40%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "250"
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION____f86ec66c8e704a7fa22f40e929b7a0e3",
+            "animationId": "MOVE_ACTION____00697b3686fc4cf08b0c9b3efb766c68",
+            "displayAnimationId": "MOVE_ACTION____00697b3686fc4cf08b0c9b3efb766c68",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "MOVE_ACTION____3bf8707be7384f95a7a7bb59a6b065f8",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "__missing_id__",
+            "widgetId": "__missing_id__",
+            "itemKUID": "e7e7af553a2f44f9aa7bd693fce73149",
+            "widgetKUID": "8153b010f453463ea0c709df88e8dae7",
+            "animationObject": {
+                "top": "89%",
+                "left": "38%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "250"
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION____f86ec66c8e704a7fa22f40e929b7a0e3",
+            "animationId": "MOVE_ACTION____3bf8707be7384f95a7a7bb59a6b065f8",
+            "displayAnimationId": "MOVE_ACTION____3bf8707be7384f95a7a7bb59a6b065f8",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "MOVE_ACTION____d1845167c46a42bfbab607fc8c8e3c1a",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "__missing_id__",
+            "widgetId": "__missing_id__",
+            "itemKUID": "e7e7af553a2f44f9aa7bd693fce73149",
+            "widgetKUID": "ef7c3335823a4293b4a204d8022ebfb6",
+            "animationObject": {
+                "top": "43%",
+                "left": "40%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "250"
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION____f86ec66c8e704a7fa22f40e929b7a0e3",
+            "animationId": "MOVE_ACTION____d1845167c46a42bfbab607fc8c8e3c1a",
+            "displayAnimationId": "MOVE_ACTION____d1845167c46a42bfbab607fc8c8e3c1a",
+            "forkedPlatform": "all",
+            "parentId": "TRANSFORM_ACTION____02520d0ea7174900a198d50c116bc6a8",
+            "callbackType": "Callback"
+        }, {
+            "id": "SCALE_ACTION____82af89ec00f94beab64f440ce8a8a45b",
+            "type": "SCALE_ACTION",
+            "itemType": "FORM",
+            "itemId": "__missing_id__",
+            "widgetId": "__missing_id__",
+            "itemKUID": "e7e7af553a2f44f9aa7bd693fce73149",
+            "widgetKUID": "03c8841e7a6a4a83b6b6dccc6188b69e",
+            "animationObject": {
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                },
+                "width": "100%",
+                "height": "50%"
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "250"
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION____f86ec66c8e704a7fa22f40e929b7a0e3",
+            "animationId": "SCALE_ACTION____82af89ec00f94beab64f440ce8a8a45b",
+            "displayAnimationId": "SCALE_ACTION____82af89ec00f94beab64f440ce8a8a45b",
+            "forkedPlatform": "all",
+            "parentId": "MOVE_ACTION____f86ec66c8e704a7fa22f40e929b7a0e3",
+            "callbackType": "Callback"
+        }]
+    }
+}

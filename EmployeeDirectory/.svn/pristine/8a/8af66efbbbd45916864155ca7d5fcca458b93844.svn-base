@@ -1,0 +1,344 @@
+function addWidgetsloginpage() {
+    loginpage.setDefaultUnit(kony.flex.DP);
+    var flxlogin = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "100%",
+        "id": "flxlogin",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "CopyslFbox07b40d9771d6c4e",
+        "top": "0%",
+        "width": "100%"
+    }, {}, {});
+    flxlogin.setDefaultUnit(kony.flex.DP);
+    var lblCorporateConnect = new kony.ui.Label({
+        "centerX": "50%",
+        "id": "lblCorporateConnect",
+        "isVisible": true,
+        "left": 0,
+        "skin": "CopyslLabel07217af5106754e",
+        "text": kony.i18n.getLocalizedString("i18n.empDir.text"),
+        "top": "10.56%",
+        "width": "80%"
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var flxloginflex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "60%",
+        "id": "flxloginflex",
+        "isVisible": true,
+        "layoutType": kony.flex.FLOW_VERTICAL,
+        "left": "0%",
+        "skin": "slFbox",
+        "top": "30.80%",
+        "width": "100%",
+        "zIndex": 1
+    }, {}, {});
+    flxloginflex.setDefaultUnit(kony.flex.DP);
+    var lblusername = new kony.ui.TextBox2({
+        "autoCapitalize": constants.TEXTBOX_AUTO_CAPITALIZE_NONE,
+        "focusSkin": "CopyslTextBox05c6d35a579b246",
+        "id": "lblusername",
+        "isVisible": true,
+        "keyBoardStyle": constants.TEXTBOX_KEY_BOARD_STYLE_DEFAULT,
+        "left": "10%",
+        "placeholder": kony.i18n.getLocalizedString("i18n.username.text"),
+        "secureTextEntry": false,
+        "skin": "lblusernameskin",
+        "textInputMode": constants.TEXTBOX_INPUT_MODE_ANY,
+        "top": "0%",
+        "width": kony.flex.USE_PREFFERED_SIZE
+    }, {
+        "containerHeightMode": constants.TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT,
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [3, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "autoCorrect": false,
+        "closeButtonRequired": true,
+        "keyboardActionLabel": constants.TEXTBOX_KEYBOARD_LABEL_DONE,
+        "placeholderSkin": "placeholderskin",
+        "showClearButton": false,
+        "showCloseButton": true,
+        "showProgressIndicator": true,
+        "viewType": constants.TEXTBOX_VIEW_TYPE_DEFAULT
+    });
+    var lblusernamelabel = new kony.ui.Label({
+        "height": "1px",
+        "id": "lblusernamelabel",
+        "isVisible": true,
+        "left": "10%",
+        "skin": "lblusernamelabelskin",
+        "top": "1.67%",
+        "width": "80%",
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var lblpassword = new kony.ui.TextBox2({
+        "autoCapitalize": constants.TEXTBOX_AUTO_CAPITALIZE_NONE,
+        "focusSkin": "lblusernameskin",
+        "id": "lblpassword",
+        "isVisible": true,
+        "keyBoardStyle": constants.TEXTBOX_KEY_BOARD_STYLE_DEFAULT,
+        "left": "10.05%",
+        "placeholder": kony.i18n.getLocalizedString("i18n.password.text"),
+        "secureTextEntry": true,
+        "skin": "lblusernameskin",
+        "textInputMode": constants.TEXTBOX_INPUT_MODE_ANY,
+        "top": "5.20%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "containerHeightMode": constants.TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT,
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [3, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "autoCorrect": false,
+        "closeButtonRequired": true,
+        "keyboardActionLabel": constants.TEXTBOX_KEYBOARD_LABEL_DONE,
+        "placeholderSkin": "placeholderskin",
+        "showClearButton": false,
+        "showCloseButton": true,
+        "showProgressIndicator": true,
+        "viewType": constants.TEXTBOX_VIEW_TYPE_DEFAULT
+    });
+    var lblpasswordlabel = new kony.ui.Label({
+        "height": "1px",
+        "id": "lblpasswordlabel",
+        "isVisible": true,
+        "left": "10%",
+        "skin": "lblusernamelabelskin",
+        "top": "1.67%",
+        "width": "80%",
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var forgotflex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "9%",
+        "id": "forgotflex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "10%",
+        "onTouchStart": AS_FlexContainer_bb20898e93654db78a11499a6555a2cd,
+        "skin": "slFbox",
+        "top": "5.20%",
+        "width": "80%",
+        "zIndex": 1
+    }, {}, {});
+    forgotflex.setDefaultUnit(kony.flex.DP);
+    var rememberlabel = new kony.ui.Label({
+        "centerY": "50%",
+        "id": "rememberlabel",
+        "isVisible": true,
+        "left": "0%",
+        "skin": "ineerskin",
+        "text": kony.i18n.getLocalizedString("i18n.rememberme.text"),
+        "top": "0%",
+        "width": kony.flex.USE_PREFFERED_SIZE
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var toggleimage = new kony.ui.Image2({
+        "centerY": "50%",
+        "height": "32dp",
+        "id": "toggleimage",
+        "isVisible": true,
+        "onTouchStart": AS_Image_18c51908216e4f0caee01181fd3f44ae,
+        "right": "0%",
+        "skin": "slImage",
+        "src": "toggle_off.png",
+        "width": "43dp",
+        "zIndex": 1
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_MAINTAIN_ASPECT_RATIO,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    forgotflex.add(
+    rememberlabel, toggleimage);
+    var loginbutton = new kony.ui.Button({
+        "centerX": "50%",
+        "focusSkin": "loginbuttonskin",
+        "height": "12.50%",
+        "id": "loginbutton",
+        "isVisible": true,
+        "onClick": AS_Button_04e0979118a3467ca1924fdcea7d9560,
+        "skin": "loginbuttonskin",
+        "text": kony.i18n.getLocalizedString("i18n.login.text"),
+        "top": "5.20%",
+        "width": "80%",
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var forgotlabel = new kony.ui.Label({
+        "id": "forgotlabel",
+        "isVisible": true,
+        "left": "10%",
+        "skin": "ineerskin",
+        "text": kony.i18n.getLocalizedString("i18n.forgotPassword.text"),
+        "top": "4.40%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    flxloginflex.add(
+    lblusername, lblusernamelabel, lblpassword, lblpasswordlabel, forgotflex, loginbutton, forgotlabel);
+    flxlogin.add(
+    lblCorporateConnect, flxloginflex);
+    var flxAlert = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "centerX": "50%",
+        "centerY": "50%",
+        "clipBounds": true,
+        "height": "100%",
+        "id": "flxAlert",
+        "isVisible": false,
+        "layoutType": kony.flex.FREE_FORM,
+        "skin": "CopyslFbox05f42c98a60594a",
+        "width": "100%",
+        "zIndex": 15
+    }, {}, {});
+    flxAlert.setDefaultUnit(kony.flex.DP);
+    var flxAlertInner = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "centerX": "50%",
+        "centerY": "50%",
+        "clipBounds": true,
+        "height": "27.20%",
+        "id": "flxAlertInner",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "skin": "CopyslFbox09c371b5378ee49",
+        "width": "84.30%"
+    }, {}, {});
+    flxAlertInner.setDefaultUnit(kony.flex.DP);
+    var btnOK = new kony.ui.Button({
+        "bottom": "0%",
+        "focusSkin": "CopyslButtonGlossRed0ff5aef57b01341",
+        "height": "30%",
+        "id": "btnOK",
+        "isVisible": true,
+        "left": "0%",
+        "onClick": AS_Button_c043e949026e48f197478357b3035767,
+        "skin": "CopyslButtonGlossBlue03768c160cc174d",
+        "text": "OK",
+        "width": "100%"
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var lblAlert = new kony.ui.Label({
+        "centerX": "50%",
+        "id": "lblAlert",
+        "isVisible": true,
+        "skin": "CopyslLabel0713a231ad23544",
+        "text": "Alert",
+        "top": "15.50%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var lblAlertDetails = new kony.ui.Label({
+        "centerX": "50%",
+        "id": "lblAlertDetails",
+        "isVisible": true,
+        "skin": "CopyslLabel0a48e57c824474d",
+        "text": "Invalid UserName",
+        "top": "40%",
+        "width": "100%",
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    flxAlertInner.add(
+    btnOK, lblAlert, lblAlertDetails);
+    flxAlert.add(
+    flxAlertInner);
+    loginpage.add(
+    flxlogin, flxAlert);
+};
+
+function loginpageGlobals() {
+    loginpage = new kony.ui.Form2({
+        "addWidgets": addWidgetsloginpage,
+        "enabledForIdleTimeout": false,
+        "id": "loginpage",
+        "init": AS_Form_4ecb19643db94a5ea029a4b728d7525d,
+        "layoutType": kony.flex.FREE_FORM,
+        "needAppMenu": false,
+        "preShow": AS_Form_08868d6a8a1f4fdaa736856013d7cb01,
+        "statusBarHidden": true
+    }, {
+        "displayOrientation": constants.FORM_DISPLAY_ORIENTATION_PORTRAIT,
+        "layoutType": kony.flex.FREE_FORM,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "configureExtendBottom": false,
+        "configureExtendTop": false,
+        "configureStatusBarStyle": false,
+        "footerOverlap": false,
+        "formTransparencyDuringPostShow": "100",
+        "headerOverlap": false,
+        "inputAccessoryViewType": constants.FORM_INPUTACCESSORYVIEW_CANCEL,
+        "needsIndicatorDuringPostShow": false,
+        "retainScrollPosition": false,
+        "titleBar": false
+    });
+};

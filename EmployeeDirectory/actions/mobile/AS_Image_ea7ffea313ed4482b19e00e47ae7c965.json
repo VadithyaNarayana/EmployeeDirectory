@@ -1,0 +1,29 @@
+{
+    "AS_Image_ea7ffea313ed4482b19e00e47ae7c965": {
+        "id": "AS_Image_ea7ffea313ed4482b19e00e47ae7c965",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "directorypage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c63867c4976342aeb031a52c5abc8743"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__3ddfd7942dc841d08909b3ba4e6fd44e",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "OnClickImageOfFilter();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "AS_FlexScrollContainer_c4e46231e713442ea6428b3bc2ca195d": {
+        "id": "AS_FlexScrollContainer_c4e46231e713442ea6428b3bc2ca195d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "detailspage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a51dd546ca794cb98d5b91992ac14e3d"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__b47e35d9cb7049dcbd610a6a9587b4c1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "onTouchEnd();\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

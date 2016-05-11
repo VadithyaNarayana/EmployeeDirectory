@@ -1,0 +1,113 @@
+{
+  "android": {
+    "font_color": "33386dff",
+    "font_name": "ClanPro-News",
+    "font_size": 121,
+    "isForked": true
+  },
+  "background_color": "00000000",
+  "bg_type": "one",
+  "border_color": "424242ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "desktopweb": {
+    "font_color": "33386dff",
+    "font_name": "Helvetica",
+    "font_size": 121,
+    "isForked": true
+  },
+  "fontSizeInPx": false,
+  "font_color": "424242ff",
+  "font_name": "Helvetica",
+  "font_size": 167,
+  "font_style": "normal",
+  "font_weight": "normal",
+  "ipad": {
+    "font_color": "33386dff",
+    "font_name": "ClanPro-News",
+    "font_size": 121,
+    "isForked": true
+  },
+  "iphone": {
+    "font_color": "33386dff",
+    "font_name": "ClanPro-News",
+    "font_size": 121,
+    "isForked": true
+  },
+  "isDefaultSkin": false,
+  "kiosk": {
+    "font_color": "33386dff",
+    "font_name": "GenericMonospace",
+    "font_size": 121,
+    "isForked": true
+  },
+  "kuid": "s12a1f6fbe594180a7560ffc35af68cc",
+  "spaan": {
+    "font_color": "33386dff",
+    "font_name": "Helvetica",
+    "font_size": 121,
+    "isForked": true
+  },
+  "spaandroidtablet": {
+    "font_color": "33386dff",
+    "font_name": "Helvetica",
+    "font_size": 121,
+    "isForked": true
+  },
+  "spabb": {
+    "font_color": "33386dff",
+    "font_name": "Helvetica",
+    "font_size": 121,
+    "isForked": true
+  },
+  "spaip": {
+    "font_color": "33386dff",
+    "font_name": "Helvetica",
+    "font_size": 121,
+    "isForked": true
+  },
+  "spaipad": {
+    "font_color": "33386dff",
+    "font_name": "Helvetica",
+    "font_size": 121,
+    "isForked": true
+  },
+  "spawindowstablet": {
+    "font_color": "33386dff",
+    "font_name": "Helvetica",
+    "font_size": 121,
+    "isForked": true
+  },
+  "spawinphone8": {
+    "font_color": "33386dff",
+    "font_name": "Helvetica",
+    "font_size": 121,
+    "isForked": true
+  },
+  "tabrcandroid": {
+    "font_color": "33386dff",
+    "font_name": "ClanPro-News",
+    "font_size": 121,
+    "isForked": true
+  },
+  "wType": "Label",
+  "watchos": {
+    "font_color": "33386dff",
+    "font_name": "Helvetica",
+    "font_size": 121,
+    "isForked": true
+  },
+  "windows8": {
+    "font_color": "33386dff",
+    "font_name": "GenericMonospace",
+    "font_size": 121,
+    "isForked": true
+  },
+  "winphone8": {
+    "font_color": "33386dff",
+    "font_name": "GenericMonospace",
+    "font_size": 121,
+    "isForked": true
+  }
+}

@@ -1,0 +1,68 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizLabel",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "25%"
+    },
+    "_margin_": [
+        1,
+        1,
+        1,
+        1
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_render_": true,
+    "_skin_": "s118b70644414e4aafaaa9780c4a58a4",
+    "_text_": "Acker,clara",
+    "_top_": {
+        "type": "string",
+        "value": "20%"
+    },
+    "_width_": {
+        "type": "ref",
+        "value": "preferred"
+    },
+    "_wrapping_": 2,
+    "android": {
+        "render": true,
+        "textStyle": {
+            "letterSpacing": 0,
+            "strikeThrough": false
+        }
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 1,
+    "id": "empname",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "wrapping": 2
+        },
+        "render": true
+    },
+    "isvisible": true,
+    "kuid": "8ba3c9a52bdc43308dba932befa984b7",
+    "name": "kony.ui.Label",
+    "parent": "datacontainer1",
+    "pf": "datatemplate1",
+    "tooltip": "",
+    "wType": "Label",
+    "windows8": {
+        "contentAlignment": 1,
+        "render": true
+    },
+    "zindex": 2
+}

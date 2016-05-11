@@ -1,0 +1,59 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "10.36%"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "72dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "12.50%"
+    },
+    "_skin_": "sfb97671f4094275a37e9841c6baad13",
+    "_src_": "filter.png",
+    "_width_": {
+        "type": "string",
+        "value": "72dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "tablet",
+        "formID": "directorypage",
+        "platform": "ipad",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "id": "sfimage",
+    "imagescalemode": 0,
+    "info": null,
+    "invokedProperty": "src",
+    "isvisible": true,
+    "kuid": "c4bf1b7b60074872be9e14ef9a105996",
+    "name": "kony.ui.Image2",
+    "ontouchstart": "AS_Image_5214e6e46cc643629d11304e84365161",
+    "parent": "directorypage",
+    "pf": "directorypage",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 4
+}

@@ -1,0 +1,22 @@
+function AS_Button_7298104007944622b2ce3aaa044d74b0(eventobject) {
+    directorypage.filtergroupflex.isVisible = true;
+    directorypage.sortnameflex.isVisible = false;
+    if (kony.theme.getCurrentTheme() != "default") {
+        kony.theme.setCurrentTheme("default", function() {
+            directorypage["sortflex"]["skin"] = "filterflexskin";
+        }, null);
+    } else {
+        (function() {
+            directorypage["sortflex"]["skin"] = "filterflexskin";
+        })();
+    }
+    if (kony.theme.getCurrentTheme() != "default") {
+        kony.theme.setCurrentTheme("default", function() {
+            directorypage["filterflex"]["skin"] = "sortflexskin";
+        }, null);
+    } else {
+        (function() {
+            directorypage["filterflex"]["skin"] = "sortflexskin";
+        })();
+    }
+}

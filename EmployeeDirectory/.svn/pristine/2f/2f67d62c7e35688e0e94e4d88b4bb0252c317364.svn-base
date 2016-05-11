@@ -1,0 +1,143 @@
+function initializedatatemplate1() {
+    datacontainer = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "19.40%",
+        "id": "datacontainer",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "skin": "slFbox"
+    }, {}, {});
+    datacontainer.setDefaultUnit(kony.flex.DP);
+    var datacontainer1 = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "100%",
+        "id": "datacontainer1",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0.00%",
+        "skin": "seperatorskin",
+        "top": "0.01%",
+        "width": "100%"
+    }, {}, {});
+    datacontainer1.setDefaultUnit(kony.flex.DP);
+    var empimage = new kony.ui.Image2({
+        "centerY": "50%",
+        "height": "65%",
+        "id": "empimage",
+        "isVisible": true,
+        "left": "8%",
+        "skin": "CopyslImage012bc62bb235d47",
+        "src": "image1.png",
+        "width": "19%"
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    var empname = new kony.ui.Label({
+        "id": "empname",
+        "isVisible": true,
+        "left": "33%",
+        "skin": "generalskin",
+        "text": "Acker,clara",
+        "top": "20%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 2
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var designation = new kony.ui.Label({
+        "id": "designation",
+        "isVisible": true,
+        "left": "33%",
+        "skin": "sknDesignationTemp",
+        "text": "Designation",
+        "top": "46%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 2
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var department = new kony.ui.Label({
+        "id": "department",
+        "isVisible": true,
+        "left": "33.26%",
+        "skin": "sknDepartmentTemp",
+        "text": "Department",
+        "top": "69%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 2
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var onlineimage = new kony.ui.Image2({
+        "height": "12%",
+        "id": "onlineimage",
+        "isVisible": true,
+        "left": "21%",
+        "skin": "slImage",
+        "src": "slider.png",
+        "top": "68%",
+        "width": "4%",
+        "zIndex": 2
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    var colorflx = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "bottom": "0%",
+        "clipBounds": true,
+        "height": "1%",
+        "id": "colorflx",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "33%",
+        "skin": "skncolorFlx",
+        "width": "67%",
+        "zIndex": 2
+    }, {}, {});
+    colorflx.setDefaultUnit(kony.flex.DP);
+    var lblChild = new kony.ui.Label({
+        "height": "0%",
+        "id": "lblChild",
+        "isVisible": true,
+        "left": "0%",
+        "skin": "slLabel",
+        "text": "lbl",
+        "top": "0%",
+        "width": "0%",
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    colorflx.add(
+    lblChild);
+    datacontainer1.add(
+    empimage, empname, designation, department, onlineimage, colorflx);
+    datacontainer.add(
+    datacontainer1);
+}

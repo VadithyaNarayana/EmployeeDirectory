@@ -1,0 +1,23 @@
+{
+    "AS_FlexScrollContainer_5423acc91e224470862af1171716fa40": {
+        "id": "AS_FlexScrollContainer_5423acc91e224470862af1171716fa40",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "TestDynamicFlexes",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ef3050bc12ca43cbac7c717f11377b44"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__240622f97d38474d8470d056409d958d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "calculateTopValues();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

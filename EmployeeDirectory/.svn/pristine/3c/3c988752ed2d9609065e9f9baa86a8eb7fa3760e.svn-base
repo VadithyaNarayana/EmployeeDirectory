@@ -1,0 +1,29 @@
+{
+    "AS_FlexContainer_a3dd06a30e374ee4b41201b32b062c9f": {
+        "id": "AS_FlexContainer_a3dd06a30e374ee4b41201b32b062c9f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "loginpage",
+            "type": "forms",
+            "platform": null,
+            "KUID": "e7639129a1414b7daef0401dcb884bd7"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__29093edb121d4164a82c64bbd5b911ac",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(loginpage.toggleimage.src === \"toggle_off.png\")\n  {\n    loginpage.toggleimage.src = \"toggle_on.png\";\n  }\nelse\n  {\n    loginpage.toggleimage.src = \"toggle_off.png\";\n  }",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

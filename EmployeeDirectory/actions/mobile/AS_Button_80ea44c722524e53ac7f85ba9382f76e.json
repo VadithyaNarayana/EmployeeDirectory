@@ -1,0 +1,28 @@
+{
+    "AS_Button_80ea44c722524e53ac7f85ba9382f76e": {
+        "id": "AS_Button_80ea44c722524e53ac7f85ba9382f76e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "2623c80ba1d748d099bb9c72535b6f8e"
+        },
+        "sourceObj": {
+            "itemKUID": "a180449959ba436fadfadc42a1b85a8d",
+            "widgetKUID": "502d6b665b7c457fac667c3efe07d17c",
+            "evt": "onClick"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__4bf2cedb25114c2d9032342d12bc4f9d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "loginClicked();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

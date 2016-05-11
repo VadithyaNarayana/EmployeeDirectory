@@ -1,0 +1,63 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "60%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s4c6838f3f8f4d1f9321fadcc3d83c7c",
+    "_top_": {
+        "type": "string",
+        "value": "30.80%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "lblusername",
+        "lblusernamelabel",
+        "lblpassword",
+        "lblpasswordlabel",
+        "forgotflex",
+        "loginbutton",
+        "forgotlabel"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxloginflex",
+    "info": null,
+    "isvisible": true,
+    "kuid": "c7c66bc728b840e9b6b05ca99a209e3a",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "flxlogin",
+    "pf": "loginpage",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

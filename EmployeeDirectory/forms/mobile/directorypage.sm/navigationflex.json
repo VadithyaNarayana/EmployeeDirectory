@@ -1,0 +1,63 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "-25%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sba129c6686947f2808b7968186e524e",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "25%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "image1",
+        "image2",
+        "image3",
+        "image4",
+        "colorlabeloffimage",
+        "Copycolorlabeloffimage027dddb1c97da46",
+        "Copycolorlabeloffimage087808579076845"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "navigationflex",
+    "info": null,
+    "isvisible": true,
+    "kuid": "a6c5dd3d80464ffab289161cea3ef2be",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "directorypage",
+    "pf": "directorypage",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 4
+}

@@ -1,0 +1,23 @@
+{
+    "AS_Button_c043e949026e48f197478357b3035767": {
+        "id": "AS_Button_c043e949026e48f197478357b3035767",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "loginpage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d7d31a7171f04985a40804c59118d28f"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__d28d18492b8c4a7b97a1ec0857bf4db2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "onClickOKAlert();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

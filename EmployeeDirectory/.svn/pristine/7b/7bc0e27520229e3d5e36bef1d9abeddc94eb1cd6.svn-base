@@ -1,0 +1,23 @@
+{
+    "AS_Form_32703f6356cb4f48aeba63071df12bfe": {
+        "id": "AS_Form_32703f6356cb4f48aeba63071df12bfe",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "directorypage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c63867c4976342aeb031a52c5abc8743"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__5bd757671a524851a16635b6712988b1",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "getCoordinatesOfFlexes();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

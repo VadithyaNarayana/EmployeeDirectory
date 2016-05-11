@@ -1,0 +1,1950 @@
+function addWidgetsdirectorypage() {
+    directorypage.setDefaultUnit(kony.flex.DP);
+    var buttonsflex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "78%",
+        "id": "buttonsflex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "onTouchEnd": AS_FlexContainer_4f290ec6fc0d447497937e194db8da93,
+        "onTouchMove": AS_FlexContainer_6aa15635d2bc498fa0ce9a6e2c46e747,
+        "onTouchStart": AS_FlexContainer_4e1b5e5651ae4543b240535e1e34e7b6,
+        "right": "15px",
+        "skin": "CopyslFbox0c56c99d43f1340",
+        "top": "22%",
+        "width": "8%",
+        "zIndex": 15
+    }, {}, {});
+    buttonsflex.setDefaultUnit(kony.flex.DP);
+    var A = new kony.ui.Button({
+        "focusSkin": "sortbuttonskin",
+        "height": "3.80%",
+        "id": "A",
+        "isVisible": true,
+        "onClick": AS_Button_4682361d8512496d9bb443001d29247c,
+        "right": "7%",
+        "skin": "sortbuttonskin",
+        "text": "A",
+        "top": "0%",
+        "width": "60%",
+        "zIndex": 10
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var B = new kony.ui.Button({
+        "focusSkin": "sortbuttonskin",
+        "height": "3.80%",
+        "id": "B",
+        "isVisible": true,
+        "onClick": AS_Button_f38881ae27cc4c55b1b38a3df9308cbd,
+        "right": "7%",
+        "skin": "sortbuttonskin",
+        "text": "B",
+        "top": "3.80%",
+        "width": "60%",
+        "zIndex": 10
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var C = new kony.ui.Button({
+        "focusSkin": "sortbuttonskin",
+        "height": "3.80%",
+        "id": "C",
+        "isVisible": true,
+        "onClick": AS_Button_ce6c33e7366949a78139805be07af4ef,
+        "right": "7%",
+        "skin": "sortbuttonskin",
+        "text": "C",
+        "top": "7.60%",
+        "width": "60%",
+        "zIndex": 10
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var D = new kony.ui.Button({
+        "focusSkin": "sortbuttonskin",
+        "height": "3.80%",
+        "id": "D",
+        "isVisible": true,
+        "onClick": AS_Button_6ec6afe848a147e5ba3246a30e51cd30,
+        "right": "7%",
+        "skin": "sortbuttonskin",
+        "text": "D",
+        "top": "11.40%",
+        "width": "60%",
+        "zIndex": 10
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var E = new kony.ui.Button({
+        "focusSkin": "sortbuttonskin",
+        "height": "3.80%",
+        "id": "E",
+        "isVisible": true,
+        "onClick": AS_Button_8676145bffbf40d09b7f5c98cc4542d4,
+        "right": "7%",
+        "skin": "sortbuttonskin",
+        "text": "E",
+        "top": "15.20%",
+        "width": "60%",
+        "zIndex": 10
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var F = new kony.ui.Button({
+        "focusSkin": "sortbuttonskin",
+        "height": "3.80%",
+        "id": "F",
+        "isVisible": true,
+        "onClick": AS_Button_b7edae84dab649d694c6a9d3a47a38e4,
+        "right": "7%",
+        "skin": "sortbuttonskin",
+        "text": "F",
+        "top": "19%",
+        "width": "60%",
+        "zIndex": 10
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var G = new kony.ui.Button({
+        "focusSkin": "sortbuttonskin",
+        "height": "3.80%",
+        "id": "G",
+        "isVisible": true,
+        "onClick": AS_Button_2b02e14db0fc4651acd64da8882322f5,
+        "right": "7%",
+        "skin": "sortbuttonskin",
+        "text": "G",
+        "top": "22.80%",
+        "width": "60%",
+        "zIndex": 10
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var H = new kony.ui.Button({
+        "focusSkin": "sortbuttonskin",
+        "height": "3.80%",
+        "id": "H",
+        "isVisible": true,
+        "onClick": AS_Button_44ca4beed46e4c938341cd257efbbfe0,
+        "right": "7%",
+        "skin": "sortbuttonskin",
+        "text": "H",
+        "top": "26.60%",
+        "width": "60%"
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var I = new kony.ui.Button({
+        "focusSkin": "sortbuttonskin",
+        "height": "3.80%",
+        "id": "I",
+        "isVisible": true,
+        "onClick": AS_Button_5bb6142dc97e4ec887dbb0cbf172ccd3,
+        "right": "7%",
+        "skin": "sortbuttonskin",
+        "text": "I",
+        "top": "30.40%",
+        "width": "60%"
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var J = new kony.ui.Button({
+        "focusSkin": "sortbuttonskin",
+        "height": "3.80%",
+        "id": "J",
+        "isVisible": true,
+        "onClick": AS_Button_262726477d5f4c789d4c7c453901ca63,
+        "right": "7%",
+        "skin": "sortbuttonskin",
+        "text": "J",
+        "top": "34.20%",
+        "width": "60%"
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var K = new kony.ui.Button({
+        "focusSkin": "sortbuttonskin",
+        "height": "3.80%",
+        "id": "K",
+        "isVisible": true,
+        "onClick": AS_Button_8f6de057a13d4fa18f74c84ecd2f854d,
+        "right": "7%",
+        "skin": "sortbuttonskin",
+        "text": "K",
+        "top": "38%",
+        "width": "60%"
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var L = new kony.ui.Button({
+        "focusSkin": "sortbuttonskin",
+        "height": "3.80%",
+        "id": "L",
+        "isVisible": true,
+        "onClick": AS_Button_df5dd8ce27724939ab6f19d14cddf787,
+        "right": "7%",
+        "skin": "sortbuttonskin",
+        "text": "L",
+        "top": "41.80%",
+        "width": "60%"
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var M = new kony.ui.Button({
+        "focusSkin": "sortbuttonskin",
+        "height": "3.80%",
+        "id": "M",
+        "isVisible": true,
+        "onClick": AS_Button_bd93f404297847bd96820e95ae5026b8,
+        "right": "7%",
+        "skin": "sortbuttonskin",
+        "text": "M",
+        "top": "45.60%",
+        "width": "60%"
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var N = new kony.ui.Button({
+        "focusSkin": "sortbuttonskin",
+        "height": "3.80%",
+        "id": "N",
+        "isVisible": true,
+        "onClick": AS_Button_45c06e9e89e6477fa40d4db830fac760,
+        "right": "7%",
+        "skin": "sortbuttonskin",
+        "text": "N",
+        "top": "49.40%",
+        "width": "60%"
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var O = new kony.ui.Button({
+        "focusSkin": "sortbuttonskin",
+        "height": "3.80%",
+        "id": "O",
+        "isVisible": true,
+        "onClick": AS_Button_a2f7f497637d45ac8b9e03733b502a82,
+        "right": "7%",
+        "skin": "sortbuttonskin",
+        "text": "O",
+        "top": "53.20%",
+        "width": "60%"
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var P = new kony.ui.Button({
+        "focusSkin": "sortbuttonskin",
+        "height": "3.80%",
+        "id": "P",
+        "isVisible": true,
+        "onClick": AS_Button_32b43c22347447a4bf6dc4b4056a47a4,
+        "right": "7%",
+        "skin": "sortbuttonskin",
+        "text": "P",
+        "top": "57%",
+        "width": "60%"
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var Q = new kony.ui.Button({
+        "focusSkin": "sortbuttonskin",
+        "height": "3.80%",
+        "id": "Q",
+        "isVisible": true,
+        "onClick": AS_Button_4a45ba95957b4631a34bd90514b4aeb8,
+        "right": "7%",
+        "skin": "sortbuttonskin",
+        "text": "Q",
+        "top": "60.80%",
+        "width": "60%"
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var R = new kony.ui.Button({
+        "focusSkin": "sortbuttonskin",
+        "height": "3.80%",
+        "id": "R",
+        "isVisible": true,
+        "onClick": AS_Button_4b38f2f864fb463ebc1d6f1c21242366,
+        "right": "7%",
+        "skin": "sortbuttonskin",
+        "text": "R",
+        "top": "64.60%",
+        "width": "60%"
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var S = new kony.ui.Button({
+        "focusSkin": "sortbuttonskin",
+        "height": "3.80%",
+        "id": "S",
+        "isVisible": true,
+        "onClick": AS_Button_eb135ff7d615404b9e08386a5c376c24,
+        "right": "7%",
+        "skin": "sortbuttonskin",
+        "text": "S",
+        "top": "68.40%",
+        "width": "60%"
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var T = new kony.ui.Button({
+        "focusSkin": "sortbuttonskin",
+        "height": "3.80%",
+        "id": "T",
+        "isVisible": true,
+        "onClick": AS_Button_8a8e7a4af3564e40961b78f49197dfef,
+        "right": "7%",
+        "skin": "sortbuttonskin",
+        "text": "T",
+        "top": "72.20%",
+        "width": "60%"
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var U = new kony.ui.Button({
+        "focusSkin": "sortbuttonskin",
+        "height": "3.80%",
+        "id": "U",
+        "isVisible": true,
+        "onClick": AS_Button_fa332d700d5e4b43bd540187e5b0d2e9,
+        "right": "7%",
+        "skin": "sortbuttonskin",
+        "text": "U",
+        "top": "76%",
+        "width": "60%"
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var V = new kony.ui.Button({
+        "focusSkin": "sortbuttonskin",
+        "height": "3.80%",
+        "id": "V",
+        "isVisible": true,
+        "onClick": AS_Button_bf2f871e03d549c898fa73c52bec5d71,
+        "right": "7%",
+        "skin": "sortbuttonskin",
+        "text": "V",
+        "top": "79.80%",
+        "width": "60%"
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var W = new kony.ui.Button({
+        "focusSkin": "sortbuttonskin",
+        "height": "3.80%",
+        "id": "W",
+        "isVisible": true,
+        "onClick": AS_Button_2660efb2f53745d18b9cc45d71347dcd,
+        "right": "7%",
+        "skin": "sortbuttonskin",
+        "text": "W",
+        "top": "83.60%",
+        "width": "60%"
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var X = new kony.ui.Button({
+        "focusSkin": "sortbuttonskin",
+        "height": "3.80%",
+        "id": "X",
+        "isVisible": true,
+        "onClick": AS_Button_366e8027ee15499daaf8a09784e8cae3,
+        "right": "7%",
+        "skin": "sortbuttonskin",
+        "text": "X",
+        "top": "87.40%",
+        "width": "60%"
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var Y = new kony.ui.Button({
+        "focusSkin": "sortbuttonskin",
+        "height": "3.80%",
+        "id": "Y",
+        "isVisible": true,
+        "onClick": AS_Button_f9b71f0415984f3e960b5c709e3620aa,
+        "right": "7%",
+        "skin": "sortbuttonskin",
+        "text": "Y",
+        "top": "91.20%",
+        "width": "60%"
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var Z = new kony.ui.Button({
+        "focusSkin": "sortbuttonskin",
+        "height": "3.80%",
+        "id": "Z",
+        "isVisible": true,
+        "onClick": AS_Button_ee4636b42a0344c388f557f078030f54,
+        "right": "7%",
+        "skin": "sortbuttonskin",
+        "text": "Z",
+        "top": "95%",
+        "width": "60%"
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    buttonsflex.add(
+    A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z);
+    var datasegment = new kony.ui.SegmentedUI2({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "data": [
+            [{
+                "stoplabel1": "     A"
+            }, [{
+                "department": "",
+                "designation": "",
+                "empimage": "",
+                "empname": "",
+                "lblChild": "Label",
+                "onlineimage": ""
+            }]],
+            [{
+                "stoplabel1": "     A"
+            }, [{
+                "department": "",
+                "designation": "",
+                "empimage": "",
+                "empname": "",
+                "lblChild": "Label",
+                "onlineimage": ""
+            }]]
+        ],
+        "groupCells": false,
+        "height": "80%",
+        "id": "datasegment",
+        "isVisible": true,
+        "left": "0%",
+        "needPageIndicator": true,
+        "onRowClick": AS_Segment_2cf40b4bd2ea40c8b0266d179de3736e,
+        "pageOffDotImage": "pageOffDot.png",
+        "pageOnDotImage": "pageOnDot.png",
+        "retainSelection": false,
+        "rowFocusSkin": "segempskin",
+        "rowSkin": "Copyseg053a52b4044af4f",
+        "rowTemplate": datacontainer,
+        "scrollingEvents": {},
+        "sectionHeaderSkin": "sliPhoneSegmentHeader",
+        "sectionHeaderTemplate": headflex,
+        "selectionBehavior": constants.SEGUI_DEFAULT_BEHAVIOR,
+        "separatorRequired": false,
+        "separatorThickness": 0,
+        "showScrollbars": false,
+        "top": "20%",
+        "viewType": constants.SEGUI_VIEW_TYPE_TABLEVIEW,
+        "widgetDataMap": {
+            "colorflx": "colorflx",
+            "datacontainer": "datacontainer",
+            "datacontainer1": "datacontainer1",
+            "department": "department",
+            "designation": "designation",
+            "empimage": "empimage",
+            "empname": "empname",
+            "headflex": "headflex",
+            "lblChild": "lblChild",
+            "onlineimage": "onlineimage",
+            "stoplabel1": "stoplabel1"
+        },
+        "width": "90%"
+    }, {
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "bounces": false,
+        "editStyle": constants.SEGUI_EDITING_STYLE_NONE,
+        "enableDictionary": false,
+        "indicator": constants.SEGUI_NONE,
+        "progressIndicatorColor": constants.PROGRESS_INDICATOR_COLOR_WHITE,
+        "showProgressIndicator": true
+    });
+    var innerflex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "20%",
+        "id": "innerflex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "CopyslFbox08a65dd9012d54b",
+        "top": "0%",
+        "width": "100%",
+        "zIndex": 3
+    }, {}, {});
+    innerflex.setDefaultUnit(kony.flex.DP);
+    var mainflex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "99.20%",
+        "id": "mainflex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0",
+        "skin": "CopyslFbox0f31f6c8fed5a48",
+        "top": "0",
+        "width": "100%",
+        "zIndex": 2
+    }, {}, {});
+    mainflex.setDefaultUnit(kony.flex.DP);
+    var headerlabel = new kony.ui.Label({
+        "centerX": "50%",
+        "height": "40%",
+        "id": "headerlabel",
+        "isVisible": true,
+        "skin": "directoryheadlabelskin",
+        "text": "Employee Directory",
+        "top": "6%",
+        "width": kony.flex.USE_PREFFERED_SIZE
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var searchbox = new kony.ui.TextBox2({
+        "autoCapitalize": constants.TEXTBOX_AUTO_CAPITALIZE_NONE,
+        "bottom": "12.50%",
+        "focusSkin": "realsearch",
+        "height": "26%",
+        "id": "searchbox",
+        "isVisible": true,
+        "keyBoardStyle": constants.TEXTBOX_KEY_BOARD_STYLE_DEFAULT,
+        "left": "4.60%",
+        "onDone": AS_TextField_153cf23612ff4a0291a5b3a2d0cc54e9,
+        "onTextChange": AS_TextField_21847e2f2cc84d3c930a9a90cae4c104,
+        "onTouchStart": AS_TextField_f69352749110480a9916dced0e2dbe4d,
+        "secureTextEntry": false,
+        "skin": "realsearch",
+        "textInputMode": constants.TEXTBOX_INPUT_MODE_ANY,
+        "top": "59%",
+        "width": "90.80%",
+        "zIndex": 5
+    }, {
+        "containerHeightMode": constants.TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT,
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [13, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "autoCorrect": false,
+        "closeButtonRequired": true,
+        "keyboardActionLabel": constants.TEXTBOX_KEYBOARD_LABEL_DONE,
+        "placeholderSkin": "realsearch",
+        "showClearButton": true,
+        "showCloseButton": false,
+        "showProgressIndicator": true,
+        "viewType": constants.TEXTBOX_VIEW_TYPE_DEFAULT
+    });
+    var hamburgerbutton = new kony.ui.Button({
+        "focusSkin": "btn2",
+        "height": "25%",
+        "id": "hamburgerbutton",
+        "isVisible": false,
+        "left": "4.60%",
+        "onClick": AS_Button_d283b9c5e3f84e6e93cab8801bc3edfa,
+        "skin": "btn2",
+        "top": "16%",
+        "width": "14%",
+        "zIndex": 3
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var hamburgerimage = new kony.ui.Image2({
+        "height": "35%",
+        "id": "hamburgerimage",
+        "isVisible": false,
+        "left": "4.60%",
+        "skin": "slImage",
+        "src": "menublue.png",
+        "top": "12.50%",
+        "width": "14%",
+        "zIndex": 2
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    var searchimage = new kony.ui.Image2({
+        "height": "17dp",
+        "id": "searchimage",
+        "isVisible": true,
+        "left": "43%",
+        "skin": "slImage",
+        "src": "search.png",
+        "top": "65%",
+        "width": "17dp",
+        "zIndex": 3
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    var searchlabel = new kony.ui.Label({
+        "height": "15%",
+        "id": "searchlabel",
+        "isVisible": true,
+        "left": "49%",
+        "skin": "CopyslLabel0cb7088b0549540",
+        "text": "Search",
+        "top": "65%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 3
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var searchinvis = new kony.ui.Image2({
+        "height": "17dp",
+        "id": "searchinvis",
+        "isVisible": false,
+        "left": "7.50%",
+        "skin": "slImage",
+        "src": "search.png",
+        "top": "64%",
+        "width": "17dp",
+        "zIndex": 3
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    var cancelbutton = new kony.ui.Button({
+        "focusSkin": "endcancel",
+        "height": "18%",
+        "id": "cancelbutton",
+        "isVisible": false,
+        "onClick": AS_Button_bbe2b4f6466244e9b26847e8d6ca8be0,
+        "right": "3%",
+        "skin": "endcancel",
+        "text": kony.i18n.getLocalizedString("i18n.cancel.text"),
+        "top": "64%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 4
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var imgLogout = new kony.ui.Image2({
+        "height": "24dp",
+        "id": "imgLogout",
+        "isVisible": true,
+        "onTouchStart": AS_Image_1a44c6b052a04259b1679cc1bb98bfbd,
+        "right": "5%",
+        "skin": "slImage",
+        "src": "logout.png",
+        "top": "15%",
+        "width": "24dp",
+        "zIndex": 4
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    mainflex.add(
+    headerlabel, searchbox, hamburgerbutton, hamburgerimage, searchimage, searchlabel, searchinvis, cancelbutton, imgLogout);
+    innerflex.add(
+    mainflex);
+    var sortandfilter = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "100%",
+        "id": "sortandfilter",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "100%",
+        "skin": "CopyslFbox03868c986553345",
+        "top": "0%",
+        "width": "100%",
+        "zIndex": 15
+    }, {}, {});
+    sortandfilter.setDefaultUnit(kony.flex.DP);
+    var sortandfilterhead = new kony.ui.Label({
+        "height": "11.20%",
+        "id": "sortandfilterhead",
+        "isVisible": true,
+        "left": "0%",
+        "skin": "CopyslLabel0fe5de795b9c746",
+        "text": kony.i18n.getLocalizedString("i18n.sortfilters.text"),
+        "top": "0%",
+        "width": "100%",
+        "zIndex": 2
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var sortflex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "24.70%",
+        "id": "sortflex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "sortflexskin",
+        "top": "11.20%",
+        "width": "30%",
+        "zIndex": 1
+    }, {}, {});
+    sortflex.setDefaultUnit(kony.flex.DP);
+    var sortlabel = new kony.ui.Label({
+        "centerX": "50%",
+        "centerY": "50%",
+        "height": "100%",
+        "id": "sortlabel",
+        "isVisible": true,
+        "left": "22dp",
+        "skin": "filterskin",
+        "text": "Sort",
+        "top": "63dp",
+        "width": "100%"
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var sortlabelbutton = new kony.ui.Button({
+        "focusSkin": "sortlabelbuttonskin",
+        "height": "100%",
+        "id": "sortlabelbutton",
+        "isVisible": true,
+        "left": "0%",
+        "onClick": AS_Button_2072bd94c6fe45be9de8a1b6b7171823,
+        "skin": "sortlabelbuttonskin",
+        "top": "0%",
+        "width": "100%",
+        "zIndex": 2
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    sortflex.add(
+    sortlabel, sortlabelbutton);
+    var filterflex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "24.70%",
+        "id": "filterflex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "filterflexskin",
+        "top": "35.70%",
+        "width": "30%",
+        "zIndex": 1
+    }, {}, {});
+    filterflex.setDefaultUnit(kony.flex.DP);
+    var filterlabel = new kony.ui.Label({
+        "centerX": "50%",
+        "centerY": "50%",
+        "height": "100%",
+        "id": "filterlabel",
+        "isVisible": true,
+        "left": "22dp",
+        "skin": "filterskin",
+        "text": "Filter",
+        "top": "63dp",
+        "width": "100%"
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var filterlabelbutton = new kony.ui.Button({
+        "focusSkin": "sortlabelbuttonskin",
+        "height": "100%",
+        "id": "filterlabelbutton",
+        "isVisible": true,
+        "left": "0%",
+        "onClick": AS_Button_19b5bd0a996d4806a4a19d4ffdaee0d8,
+        "skin": "sortlabelbuttonskin",
+        "top": "0%",
+        "width": "100%",
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    filterflex.add(
+    filterlabel, filterlabelbutton);
+    var blackflex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "20%",
+        "id": "blackflex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "CopyslFbox00dc0eb829a9646",
+        "top": "80%",
+        "width": "100%",
+        "zIndex": 1
+    }, {}, {});
+    blackflex.setDefaultUnit(kony.flex.DP);
+    var correctimage = new kony.ui.Image2({
+        "height": "56dp",
+        "id": "correctimage",
+        "isVisible": true,
+        "left": "50%",
+        "skin": "slImage",
+        "src": "filtersaccepticon.png",
+        "top": "20%",
+        "width": "56dp"
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    var wrongimage = new kony.ui.Image2({
+        "height": "56dp",
+        "id": "wrongimage",
+        "isVisible": true,
+        "left": "70%",
+        "skin": "slImage",
+        "src": "filterscancelbutton.png",
+        "top": "20%",
+        "width": "56dp"
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    var correctbutton = new kony.ui.Button({
+        "focusSkin": "sortlabelbuttonskin",
+        "height": "40%",
+        "id": "correctbutton",
+        "isVisible": true,
+        "left": "50%",
+        "onClick": AS_Button_cda878683e7547d1bd6c6d88ffc4a164,
+        "skin": "sortlabelbuttonskin",
+        "top": "21%",
+        "width": "16%",
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var wrongbutton = new kony.ui.Button({
+        "focusSkin": "sortlabelbuttonskin",
+        "height": "40%",
+        "id": "wrongbutton",
+        "isVisible": true,
+        "left": "70%",
+        "onClick": AS_Button_2e88848d49cc4f8688023f544caa9c18,
+        "skin": "sortlabelbuttonskin",
+        "top": "21%",
+        "width": "16%",
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    blackflex.add(
+    correctimage, wrongimage, correctbutton, wrongbutton);
+    var emptyflex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "19.88%",
+        "id": "emptyflex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "filterflexskin",
+        "top": "60.20%",
+        "width": "30%",
+        "zIndex": 1
+    }, {}, {});
+    emptyflex.setDefaultUnit(kony.flex.DP);
+    emptyflex.add();
+    var sortnameflex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "12.60%",
+        "id": "sortnameflex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "30%",
+        "skin": "sortnameflexskin",
+        "top": "11.20%",
+        "width": "70%",
+        "zIndex": 1
+    }, {}, {});
+    sortnameflex.setDefaultUnit(kony.flex.DP);
+    var mainname = new kony.ui.Label({
+        "centerY": "50%",
+        "id": "mainname",
+        "isVisible": true,
+        "left": "12%",
+        "skin": "CopyslLabel0daf8762a8a9743",
+        "text": kony.i18n.getLocalizedString("i18n.name.text"),
+        "top": "17dp",
+        "width": kony.flex.USE_PREFFERED_SIZE
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var ascendingimage = new kony.ui.Image2({
+        "centerY": "50%",
+        "height": "48dp",
+        "id": "ascendingimage",
+        "isVisible": true,
+        "left": "50%",
+        "skin": "slImage",
+        "src": "ascending.png",
+        "width": "48dp",
+        "zIndex": 1
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    var descendingimage = new kony.ui.Image2({
+        "centerY": "50%",
+        "height": "48dp",
+        "id": "descendingimage",
+        "isVisible": true,
+        "left": "77%",
+        "skin": "slImage",
+        "src": "descending.png",
+        "width": "48dp",
+        "zIndex": 1
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    var ascendingbutton = new kony.ui.Button({
+        "focusSkin": "sortlabelbuttonskin",
+        "height": "61.64%",
+        "id": "ascendingbutton",
+        "isVisible": true,
+        "left": "50.12%",
+        "onClick": AS_Button_0f7fc2628564423fb5e3374109197fbb,
+        "skin": "sortlabelbuttonskin",
+        "top": "18.97%",
+        "width": "19.03%",
+        "zIndex": 2
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var descendingbutton = new kony.ui.Button({
+        "focusSkin": "sortlabelbuttonskin",
+        "height": "61.49%",
+        "id": "descendingbutton",
+        "isVisible": true,
+        "left": "76.72%",
+        "onClick": AS_Button_efc78204a9ce4e5aa38e555881a70d7b,
+        "skin": "sortlabelbuttonskin",
+        "top": "18.97%",
+        "width": "18.74%",
+        "zIndex": 2
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var ColorFlexSort = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "1px",
+        "id": "ColorFlexSort",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "colorflexskn",
+        "top": "99%",
+        "width": "100%"
+    }, {}, {});
+    ColorFlexSort.setDefaultUnit(kony.flex.DP);
+    ColorFlexSort.add();
+    sortnameflex.add(
+    mainname, ascendingimage, descendingimage, ascendingbutton, descendingbutton, ColorFlexSort);
+    var filtergroupflex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "60%",
+        "id": "filtergroupflex",
+        "isVisible": true,
+        "layoutType": kony.flex.FLOW_VERTICAL,
+        "left": "100%",
+        "skin": "groupflexskin",
+        "top": "11.20%",
+        "width": "70%",
+        "zIndex": 1
+    }, {}, {});
+    filtergroupflex.setDefaultUnit(kony.flex.DP);
+    var hrflex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "16%",
+        "id": "hrflex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "hrflexskin",
+        "top": "0%",
+        "width": "100%"
+    }, {}, {});
+    hrflex.setDefaultUnit(kony.flex.DP);
+    var colorflex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "1px",
+        "id": "colorflex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "10%",
+        "skin": "colorflexskn",
+        "top": "99%",
+        "width": "90%"
+    }, {}, {});
+    colorflex.setDefaultUnit(kony.flex.DP);
+    colorflex.add();
+    var hrlabel = new kony.ui.Label({
+        "centerY": "50%",
+        "id": "hrlabel",
+        "isVisible": true,
+        "left": "35%",
+        "skin": "filterskin",
+        "text": kony.i18n.getLocalizedString("i18n.hr.text"),
+        "top": "16dp",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var hrimage = new kony.ui.Image2({
+        "centerY": "50%",
+        "height": "32dp",
+        "id": "hrimage",
+        "isVisible": true,
+        "left": "13%",
+        "skin": "slImage",
+        "src": "checkboxinactive.png",
+        "top": "12%",
+        "width": "32dp",
+        "zIndex": 1
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    var hrbutton = new kony.ui.Button({
+        "focusSkin": "sortlabelbuttonskin",
+        "height": "58.89%",
+        "id": "hrbutton",
+        "isVisible": true,
+        "left": "13%",
+        "onClick": AS_Button_6daef5c5032b44868e91a524b1adf10c,
+        "skin": "sortlabelbuttonskin",
+        "top": "23.11%",
+        "width": "13.19%",
+        "zIndex": 2
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    hrflex.add(
+    colorflex, hrlabel, hrimage, hrbutton);
+    var salesflex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "16%",
+        "id": "salesflex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "hrflexskin",
+        "top": "0%",
+        "width": "100%"
+    }, {}, {});
+    salesflex.setDefaultUnit(kony.flex.DP);
+    var Copycolorflex004e7224dadfe43 = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "1px",
+        "id": "Copycolorflex004e7224dadfe43",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "10%",
+        "skin": "colorflexskn",
+        "top": "99%",
+        "width": "90%"
+    }, {}, {});
+    Copycolorflex004e7224dadfe43.setDefaultUnit(kony.flex.DP);
+    Copycolorflex004e7224dadfe43.add();
+    var saleslabel = new kony.ui.Label({
+        "centerY": "50%",
+        "id": "saleslabel",
+        "isVisible": true,
+        "left": "35%",
+        "skin": "filterskin",
+        "text": kony.i18n.getLocalizedString("i18n.sales.text"),
+        "top": "16dp",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var salesimage = new kony.ui.Image2({
+        "centerY": "50%",
+        "height": "33dp",
+        "id": "salesimage",
+        "isVisible": true,
+        "left": "13%",
+        "skin": "slImage",
+        "src": "checkboxinactive.png",
+        "top": "12%",
+        "width": "33dp",
+        "zIndex": 1
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    var salesbutton = new kony.ui.Button({
+        "focusSkin": "sortlabelbuttonskin",
+        "height": "56.50%",
+        "id": "salesbutton",
+        "isVisible": true,
+        "left": "13%",
+        "onClick": AS_Button_a27646cc57c8448898ad7a251577d8af,
+        "skin": "sortlabelbuttonskin",
+        "top": "22.60%",
+        "width": "13.06%",
+        "zIndex": 2
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    salesflex.add(
+    Copycolorflex004e7224dadfe43, saleslabel, salesimage, salesbutton);
+    var executiveflex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "16%",
+        "id": "executiveflex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "hrflexskin",
+        "top": "0%",
+        "width": "100%"
+    }, {}, {});
+    executiveflex.setDefaultUnit(kony.flex.DP);
+    var Copycolorflex00d04d1f5e22442 = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "1px",
+        "id": "Copycolorflex00d04d1f5e22442",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "10%",
+        "skin": "colorflexskn",
+        "top": "99%",
+        "width": "90%"
+    }, {}, {});
+    Copycolorflex00d04d1f5e22442.setDefaultUnit(kony.flex.DP);
+    Copycolorflex00d04d1f5e22442.add();
+    var executivelabel = new kony.ui.Label({
+        "centerY": "50%",
+        "id": "executivelabel",
+        "isVisible": true,
+        "left": "35%",
+        "skin": "filterskin",
+        "text": kony.i18n.getLocalizedString("i18n.executive.text"),
+        "top": "16dp",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var executiveimage = new kony.ui.Image2({
+        "centerY": "50%",
+        "height": "33dp",
+        "id": "executiveimage",
+        "isVisible": true,
+        "left": "13%",
+        "skin": "slImage",
+        "src": "checkboxinactive.png",
+        "top": "12%",
+        "width": "33dp",
+        "zIndex": 1
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    var executivebutton = new kony.ui.Button({
+        "focusSkin": "sortlabelbuttonskin",
+        "height": "60.02%",
+        "id": "executivebutton",
+        "isVisible": true,
+        "left": "13%",
+        "onClick": AS_Button_8dce4abdc3764330889615e71aa2362a,
+        "skin": "sortlabelbuttonskin",
+        "top": "21.98%",
+        "width": "15.13%",
+        "zIndex": 2
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    executiveflex.add(
+    Copycolorflex00d04d1f5e22442, executivelabel, executiveimage, executivebutton);
+    var financeflex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "16%",
+        "id": "financeflex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "hrflexskin",
+        "top": "0%",
+        "width": "100%"
+    }, {}, {});
+    financeflex.setDefaultUnit(kony.flex.DP);
+    var Copycolorflex042c2124d826b4a = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "1px",
+        "id": "Copycolorflex042c2124d826b4a",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "10%",
+        "skin": "colorflexskn",
+        "top": "99%",
+        "width": "90%"
+    }, {}, {});
+    Copycolorflex042c2124d826b4a.setDefaultUnit(kony.flex.DP);
+    Copycolorflex042c2124d826b4a.add();
+    var financelabel = new kony.ui.Label({
+        "centerY": "50%",
+        "id": "financelabel",
+        "isVisible": true,
+        "left": "35%",
+        "skin": "filterskin",
+        "text": kony.i18n.getLocalizedString("i18n.finance.text"),
+        "top": "16dp",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var financeimage = new kony.ui.Image2({
+        "centerY": "50%",
+        "height": "32dp",
+        "id": "financeimage",
+        "isVisible": true,
+        "left": "13%",
+        "skin": "slImage",
+        "src": "checkboxinactive.png",
+        "top": "12%",
+        "width": "32dp",
+        "zIndex": 1
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    var financebutton = new kony.ui.Button({
+        "focusSkin": "sortlabelbuttonskin",
+        "height": "58.70%",
+        "id": "financebutton",
+        "isVisible": true,
+        "left": "13%",
+        "onClick": AS_Button_58bcfea17e5240d691501640cb6cd45f,
+        "skin": "sortlabelbuttonskin",
+        "top": "23.30%",
+        "width": "13.19%",
+        "zIndex": 2
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    financeflex.add(
+    Copycolorflex042c2124d826b4a, financelabel, financeimage, financebutton);
+    var advisoryflex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "16%",
+        "id": "advisoryflex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "hrflexskin",
+        "top": "0%",
+        "width": "100%"
+    }, {}, {});
+    advisoryflex.setDefaultUnit(kony.flex.DP);
+    var Copycolorflex03d0123e74b6d49 = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "1px",
+        "id": "Copycolorflex03d0123e74b6d49",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "10%",
+        "skin": "colorflexskn",
+        "top": "99%",
+        "width": "90%"
+    }, {}, {});
+    Copycolorflex03d0123e74b6d49.setDefaultUnit(kony.flex.DP);
+    Copycolorflex03d0123e74b6d49.add();
+    var advisorylabel = new kony.ui.Label({
+        "centerY": "50%",
+        "id": "advisorylabel",
+        "isVisible": true,
+        "left": "35%",
+        "skin": "filterskin",
+        "text": kony.i18n.getLocalizedString("i18n.advisory.text"),
+        "top": "16dp",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var advisoryimage = new kony.ui.Image2({
+        "centerY": "50%",
+        "height": "32dp",
+        "id": "advisoryimage",
+        "isVisible": true,
+        "left": "13%",
+        "skin": "slImage",
+        "src": "checkboxinactive.png",
+        "top": "12%",
+        "width": "32dp",
+        "zIndex": 1
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    var advisorybutton = new kony.ui.Button({
+        "focusSkin": "sortlabelbuttonskin",
+        "height": "58.51%",
+        "id": "advisorybutton",
+        "isVisible": true,
+        "left": "13%",
+        "onClick": AS_Button_31f57efcf455485e8b892265a167290f,
+        "skin": "sortlabelbuttonskin",
+        "top": "23.49%",
+        "width": "12.71%",
+        "zIndex": 2
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    advisoryflex.add(
+    Copycolorflex03d0123e74b6d49, advisorylabel, advisoryimage, advisorybutton);
+    var communicationflex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "16%",
+        "id": "communicationflex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "hrflexskin",
+        "top": "0%",
+        "width": "100%"
+    }, {}, {});
+    communicationflex.setDefaultUnit(kony.flex.DP);
+    var Copycolorflex06ee658cad57c4a = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "1px",
+        "id": "Copycolorflex06ee658cad57c4a",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "10%",
+        "skin": "colorflexskn",
+        "top": "99%",
+        "width": "90%"
+    }, {}, {});
+    Copycolorflex06ee658cad57c4a.setDefaultUnit(kony.flex.DP);
+    Copycolorflex06ee658cad57c4a.add();
+    var communicattionlabel = new kony.ui.Label({
+        "centerY": "50%",
+        "id": "communicattionlabel",
+        "isVisible": true,
+        "left": "35%",
+        "skin": "filterskin",
+        "text": kony.i18n.getLocalizedString("i18n.corpcommunication.text"),
+        "top": "16dp",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var communicationimage = new kony.ui.Image2({
+        "centerY": "50%",
+        "height": "32dp",
+        "id": "communicationimage",
+        "isVisible": true,
+        "left": "13%",
+        "skin": "slImage",
+        "src": "checkboxinactive.png",
+        "top": "12%",
+        "width": "32dp",
+        "zIndex": 1
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    var communicationbutton = new kony.ui.Button({
+        "focusSkin": "sortlabelbuttonskin",
+        "height": "58.89%",
+        "id": "communicationbutton",
+        "isVisible": true,
+        "left": "13%",
+        "onClick": AS_Button_75ebd92245804eaab4da78d906860b45,
+        "skin": "sortlabelbuttonskin",
+        "top": "23.11%",
+        "width": "12.75%",
+        "zIndex": 2
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    communicationflex.add(
+    Copycolorflex06ee658cad57c4a, communicattionlabel, communicationimage, communicationbutton);
+    filtergroupflex.add(
+    hrflex, salesflex, executiveflex, financeflex, advisoryflex, communicationflex);
+    sortandfilter.add(
+    sortandfilterhead, sortflex, filterflex, blackflex, emptyflex, sortnameflex, filtergroupflex);
+    var sfimage = new kony.ui.Image2({
+        "bottom": "4%",
+        "height": "75dp",
+        "id": "sfimage",
+        "isVisible": true,
+        "onTouchStart": AS_Image_ea7ffea313ed4482b19e00e47ae7c965,
+        "right": "12.50%",
+        "skin": "slImage",
+        "src": "filter.png",
+        "width": "75dp",
+        "zIndex": 4
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    var navigationflex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "100%",
+        "id": "navigationflex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "-25%",
+        "skin": "CopyslFbox0f3300108b8034d",
+        "top": "0%",
+        "width": "25%",
+        "zIndex": 4
+    }, {}, {});
+    navigationflex.setDefaultUnit(kony.flex.DP);
+    var image1 = new kony.ui.Image2({
+        "centerX": "50%",
+        "height": "50dp",
+        "id": "image1",
+        "isVisible": true,
+        "left": "36%",
+        "skin": "slImage",
+        "src": "menu.png",
+        "top": "6%",
+        "width": "50dp"
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    var image2 = new kony.ui.Image2({
+        "centerX": "50%",
+        "height": "50dp",
+        "id": "image2",
+        "isVisible": true,
+        "left": "36%",
+        "skin": "slImage",
+        "src": "apps.png",
+        "top": "25%",
+        "width": "50dp"
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    var image3 = new kony.ui.Image2({
+        "centerX": "50%",
+        "height": "50dp",
+        "id": "image3",
+        "isVisible": true,
+        "left": "36%",
+        "onTouchStart": AS_Image_7052b999f41543d9a25780a3457aa113,
+        "skin": "slImage",
+        "src": "me.png",
+        "top": "45%",
+        "width": "50dp"
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    var image4 = new kony.ui.Image2({
+        "centerX": "50%",
+        "height": "50dp",
+        "id": "image4",
+        "isVisible": true,
+        "left": "36%",
+        "onTouchStart": AS_Image_ebb6370b6b014a7a8ba59ea0a320bd3f,
+        "skin": "slImage",
+        "src": "settings.png",
+        "top": "65%",
+        "width": "50dp"
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    var colorlabeloffimage = new kony.ui.Label({
+        "id": "colorlabeloffimage",
+        "isVisible": true,
+        "left": "0%",
+        "skin": "CopyslLabel030c6be4c654e42",
+        "top": "19%",
+        "width": "100%",
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var Copycolorlabeloffimage027dddb1c97da46 = new kony.ui.Label({
+        "id": "Copycolorlabeloffimage027dddb1c97da46",
+        "isVisible": true,
+        "left": "0%",
+        "skin": "CopyslLabel030c6be4c654e42",
+        "top": "39%",
+        "width": "100%",
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var Copycolorlabeloffimage087808579076845 = new kony.ui.Label({
+        "id": "Copycolorlabeloffimage087808579076845",
+        "isVisible": true,
+        "left": "0%",
+        "skin": "CopyslLabel030c6be4c654e42",
+        "top": "59%",
+        "width": "100%",
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    navigationflex.add(
+    image1, image2, image3, image4, colorlabeloffimage, Copycolorlabeloffimage027dddb1c97da46, Copycolorlabeloffimage087808579076845);
+    var flxShadowEmployeeHeader = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "0.60%",
+        "id": "flxShadowEmployeeHeader",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "sknFlxShadow",
+        "top": "20%",
+        "width": "100%",
+        "zIndex": 10
+    }, {}, {});
+    flxShadowEmployeeHeader.setDefaultUnit(kony.flex.DP);
+    flxShadowEmployeeHeader.add();
+    var lblDisplaySelectedIndex = new kony.ui.Label({
+        "height": "8%",
+        "id": "lblDisplaySelectedIndex",
+        "isVisible": false,
+        "right": "10%",
+        "skin": "CopyslLabel07b04ae286efa4e",
+        "text": "A",
+        "top": "130dp",
+        "width": "15%",
+        "zIndex": 15
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var flxTop = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "0.10%",
+        "id": "flxTop",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "99%",
+        "skin": "slFbox",
+        "top": "20%",
+        "width": "0.10%",
+        "zIndex": 10
+    }, {}, {});
+    flxTop.setDefaultUnit(kony.flex.DP);
+    var lblTop = new kony.ui.Label({
+        "id": "lblTop",
+        "isVisible": true,
+        "left": "0%",
+        "skin": "slLabel",
+        "text": "t",
+        "top": "0%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 15
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    flxTop.add(
+    lblTop);
+    var flxBottom = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "0.10%",
+        "id": "flxBottom",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "99%",
+        "skin": "slFbox",
+        "top": "92%",
+        "width": "0.10%",
+        "zIndex": 10
+    }, {}, {});
+    flxBottom.setDefaultUnit(kony.flex.DP);
+    var lblBottom = new kony.ui.Label({
+        "id": "lblBottom",
+        "isVisible": true,
+        "left": "0%",
+        "skin": "slLabel",
+        "text": "b",
+        "top": "0%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 15
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    flxBottom.add(
+    lblBottom);
+    var lblNoResultsFound = new kony.ui.Label({
+        "centerX": "50%",
+        "centerY": "50%",
+        "id": "lblNoResultsFound",
+        "isVisible": false,
+        "skin": "sknLbl5E5050Book30",
+        "text": "No Results Found",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 15
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    directorypage.add(
+    buttonsflex, datasegment, innerflex, sortandfilter, sfimage, navigationflex, flxShadowEmployeeHeader, lblDisplaySelectedIndex, flxTop, flxBottom, lblNoResultsFound);
+};
+
+function directorypageGlobals() {
+    directorypage = new kony.ui.Form2({
+        "addWidgets": addWidgetsdirectorypage,
+        "bounces": false,
+        "enableScrolling": false,
+        "enabledForIdleTimeout": false,
+        "id": "directorypage",
+        "init": AS_Form_5289b0eca403408aa0d38cfe6a85a925,
+        "layoutType": kony.flex.FREE_FORM,
+        "needAppMenu": false,
+        "postShow": AS_Form_32703f6356cb4f48aeba63071df12bfe,
+        "preShow": AS_Form_24486d9d83004f40bbd48cd5d80a9f91,
+        "skin": "CopyslForm0cb7988d5849a4a",
+        "statusBarHidden": true
+    }, {
+        "displayOrientation": constants.FORM_DISPLAY_ORIENTATION_PORTRAIT,
+        "layoutType": kony.flex.FREE_FORM,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "bounces": false,
+        "configureExtendBottom": false,
+        "configureExtendTop": false,
+        "configureStatusBarStyle": false,
+        "footerOverlap": false,
+        "formTransparencyDuringPostShow": "100",
+        "headerOverlap": false,
+        "inputAccessoryViewType": constants.FORM_INPUTACCESSORYVIEW_CANCEL,
+        "needsIndicatorDuringPostShow": false,
+        "retainScrollPosition": false,
+        "titleBar": false
+    });
+};

@@ -1,0 +1,60 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "25%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sb645025945a44af9d9e06d502ea153a",
+    "_top_": {
+        "type": "string",
+        "value": "25%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "reportingto",
+        "reportingtoc",
+        "mimage"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "d2flex",
+    "info": null,
+    "isvisible": true,
+    "kuid": "73e3a5a6377c4ac5b0d0b4e1dc8fc272",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "ontouchstart": "AS_FlexContainer_36cdbe9f4539406ca036aadc77336185",
+    "parent": "totalscroll",
+    "pf": "profilepageunused",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

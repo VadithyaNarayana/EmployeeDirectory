@@ -1,0 +1,62 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "4.50%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sfb97671f4094275a37e9841c6baad13",
+    "_src_": "reortingicon.png",
+    "_top_": {
+        "type": "string",
+        "value": "40%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "20dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "6.90%"
+    },
+    "containerId": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "tablet",
+        "platform": "ipad",
+        "templateType": "segments",
+        "topLevelBox": null
+    },
+    "id": "headerdotimage",
+    "imagescalemode": 0,
+    "info": null,
+    "invokedProperty": "src",
+    "isvisible": true,
+    "kuid": "614e56f5aa28445991702074bf8400ab",
+    "name": "kony.ui.Image2",
+    "parent": "heirarchysectionheadcontainer",
+    "pf": "sectionheadertemplate",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 1
+}

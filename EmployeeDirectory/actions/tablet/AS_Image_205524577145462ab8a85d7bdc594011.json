@@ -1,0 +1,29 @@
+{
+    "AS_Image_205524577145462ab8a85d7bdc594011": {
+        "id": "AS_Image_205524577145462ab8a85d7bdc594011",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "profilepage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "4d743f38d56c431b837ff9126d252c5e"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__7c0e0582a1b74d60a28a33db4a2204a2",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "openMediaGallery(profilepage.staticimage);s",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

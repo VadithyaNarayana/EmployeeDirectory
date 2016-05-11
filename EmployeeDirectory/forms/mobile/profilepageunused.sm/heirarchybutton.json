@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "60%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sd497200db57493c825fa2dbb1ff26c4",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "30%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "28%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sd497200db57493c825fa2dbb1ff26c4",
+    "id": "heirarchybutton",
+    "info": null,
+    "isvisible": true,
+    "kuid": "7953e0c21aa9456d9c44fb1f61b27596",
+    "name": "kony.ui.Button",
+    "onclick": "AS_Button_92fc2a6a4bb74dfda1125d543c2bb3a1",
+    "parent": "categoryflex",
+    "pf": "profilepageunused",
+    "wType": "Button",
+    "zindex": 2
+}

@@ -1,0 +1,51 @@
+function AS_Button_aa1f8c275e0b4a08accb95d429857c4c(eventobject) {
+    profilepage.heirarchysegment.isVisible = "false";
+    profilepage.d1flex.isVisible = "true";
+    profilepage.d2flex.isVisible = "true";
+    profilepage.d3flex.isVisible = "true";
+    profilepage.d4flex.isVisible = "true";
+    profilepage.d5flex.isVisible = "true";
+    profilepage.d6flex.isVisible = "true";
+    profilepage.d7flex.isVisible = "true";
+    profilepage.d8flex.isVisible = "true";
+    profilepage.d9flex.isVisible = "true";
+    profilepage.d10flex.isVisible = "true";
+    profilepage.d11flex.isVisible = "true";
+    profilepage.d12flex.isVisible = "true";
+    if (kony.theme.getCurrentTheme() != "default") {
+        kony.theme.setCurrentTheme("default", function() {
+            profilepage["detailsoption"]["skin"] = "tlabvis";
+        }, null);
+    } else {
+        (function() {
+            profilepage["detailsoption"]["skin"] = "tlabvis";
+        })();
+    }
+    if (kony.theme.getCurrentTheme() != "default") {
+        kony.theme.setCurrentTheme("default", function() {
+            profilepage["hierarchyoption"]["skin"] = "tlabinvis";
+        }, null);
+    } else {
+        (function() {
+            profilepage["hierarchyoption"]["skin"] = "tlabinvis";
+        })();
+    }
+    if (kony.theme.getCurrentTheme() != "default") {
+        kony.theme.setCurrentTheme("default", function() {
+            profilepage["detailscolor"]["skin"] = "colorvis";
+        }, null);
+    } else {
+        (function() {
+            profilepage["detailscolor"]["skin"] = "colorvis";
+        })();
+    }
+    if (kony.theme.getCurrentTheme() != "default") {
+        kony.theme.setCurrentTheme("default", function() {
+            profilepage["heirarchycolor"]["skin"] = "colorinvis";
+        }, null);
+    } else {
+        (function() {
+            profilepage["heirarchycolor"]["skin"] = "colorinvis";
+        })();
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "AS_Image_7052b999f41543d9a25780a3457aa113": {
+        "id": "AS_Image_7052b999f41543d9a25780a3457aa113",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "directorypage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c63867c4976342aeb031a52c5abc8743"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__a86c84012fc849de95a95a0f10fde366",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": " directorypage.buttonsflex.left=\"91%\";\n directorypage.sfimage.left=\"75%\";\n directorypage.datasegment.left=\"0%\";\n directorypage.innerflex.left=\"0%\";\n directorypage.navigationflex.left=\"-25%\";\n count=0;",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "NAVIGATE_TO_FORM___474cf7b1b6f64845b51d99caa8730ae2",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "profilepageunused",
+            "formKUID": "72a3378da1cf43ac93642a74d650f38e",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

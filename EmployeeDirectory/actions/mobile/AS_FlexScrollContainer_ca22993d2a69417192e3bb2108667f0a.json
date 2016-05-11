@@ -1,0 +1,23 @@
+{
+    "AS_FlexScrollContainer_ca22993d2a69417192e3bb2108667f0a": {
+        "id": "AS_FlexScrollContainer_ca22993d2a69417192e3bb2108667f0a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "detailspage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a51dd546ca794cb98d5b91992ac14e3d"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__2c0a180caf4d4116b2772667c392c41c",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "scroll();\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

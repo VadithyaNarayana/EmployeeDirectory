@@ -1,0 +1,58 @@
+{
+    "AS_Button_2e88848d49cc4f8688023f544caa9c18": {
+        "id": "AS_Button_2e88848d49cc4f8688023f544caa9c18",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "directorypage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c63867c4976342aeb031a52c5abc8743"
+        },
+        "actions": [{
+            "id": "INVOKE_FUNCTION___6c35e11156704ebcb4caf8edbfb13742",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onWrong",
+            "display": "onWrong",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "MOVE_ACTION____475efa26a74c4e1787d6ac67b288dbf2",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "directorypage",
+            "widgetId": "sortandfilter",
+            "itemKUID": "c63867c4976342aeb031a52c5abc8743",
+            "widgetKUID": "e86ccbc8490c4886849beb5d6e5a2a40",
+            "animationObject": {
+                "left": "100%",
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "250"
+            },
+            "start": "Immediately",
+            "animationId": "MOVE_ACTION____475efa26a74c4e1787d6ac67b288dbf2",
+            "displayAnimationId": "MOVE_ACTION____475efa26a74c4e1787d6ac67b288dbf2",
+            "forkedPlatform": "all",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "ADD_SNIPPET__29eaa43e9eab496e89fb6635d0f7f004",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "directorypage.sfimage.isVisible=true;",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

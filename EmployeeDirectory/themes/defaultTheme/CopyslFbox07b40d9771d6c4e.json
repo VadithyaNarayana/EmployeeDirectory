@@ -1,0 +1,11 @@
+{
+  "background_image": "cclogin.png",
+  "bg_type": "image",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "isDefaultSkin": false,
+  "kuid": "scdc15f5d9cb4a5aa9e21303456dce5c",
+  "wType": "FlexContainer"
+}

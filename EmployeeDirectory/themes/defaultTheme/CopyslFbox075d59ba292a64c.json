@@ -1,0 +1,20 @@
+{
+  "background_color": "0000000c",
+  "bg_type": "one",
+  "border_color": "000000ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "ipad": {
+    "isForked": true
+  },
+  "isDefaultSkin": false,
+  "kuid": "se0a3edf78814a04b3962d8fb7274b7f",
+  "tabrcandroid": {
+    "isForked": true
+  },
+  "wType": "FlexContainer",
+  "windows8": {
+    "isForked": true
+  }
+}

@@ -1,0 +1,29 @@
+{
+    "AS_FlexContainer_e4ab88453dee41189089abdd22b4d4cd": {
+        "id": "AS_FlexContainer_e4ab88453dee41189089abdd22b4d4cd",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "detailspage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a51dd546ca794cb98d5b91992ac14e3d"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__145108c0928e44e082e3f71a364e65f6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//#ifdef android\nfcontainertouch();\n//#endif",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

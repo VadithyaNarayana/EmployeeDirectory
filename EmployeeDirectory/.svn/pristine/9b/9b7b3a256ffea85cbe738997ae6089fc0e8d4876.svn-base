@@ -1,0 +1,28 @@
+{
+    "AS_Button_13480d75c9214cac8dd95b79a1935678": {
+        "id": "AS_Button_13480d75c9214cac8dd95b79a1935678",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__onClick_8ee49a56cb9541988fbc876a427ea02c",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "directorypage",
+            "formKUID": "c63867c4976342aeb031a52c5abc8743",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }, {
+            "id": "INVOKE_FUNCTION__onClick_f0c5bdb7ba0c47f38673344e65089f0e",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "fcontainertouch",
+            "display": "fcontainertouch",
+            "inputparams": [],
+            "callbackType": null
+        }]
+    }
+}

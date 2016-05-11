@@ -1,0 +1,29 @@
+{
+    "AS_Image_8f183ef750fd4083a4a8b7c172f306a0": {
+        "id": "AS_Image_8f183ef750fd4083a4a8b7c172f306a0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "directorypage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ebac7443c293431ca451ee05dea129be"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__841f1fd61b5b4facafaf478f26cebfdd",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "directorypage.buttonsflex.left = \"91%\";\ndirectorypage.sfimage.left = \"75%\";\ndirectorypage.datasegment.left = \"0%\";\ndirectorypage.innerflex.left = \"0%\";\ndirectorypage.navigationflex.left = \"-25%\";\ncount = 0;\nloginpage.show();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

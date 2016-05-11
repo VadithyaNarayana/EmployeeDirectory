@@ -1,0 +1,25 @@
+{
+  "background_color": "5e5050e5",
+  "bg_type": "one",
+  "border_color": "424242ff",
+  "border_style": "plain",
+  "border_type": 0,
+  "border_width": 0,
+  "font_color": "424242ff",
+  "font_name": "Helvetica",
+  "font_size": 215,
+  "font_style": "normal",
+  "font_weight": "normal",
+  "ipad": {
+    "isForked": true
+  },
+  "isDefaultSkin": false,
+  "kuid": "sed347ccbce7414eae703619f2042613",
+  "tabrcandroid": {
+    "isForked": true
+  },
+  "wType": "Label",
+  "windows8": {
+    "isForked": true
+  }
+}

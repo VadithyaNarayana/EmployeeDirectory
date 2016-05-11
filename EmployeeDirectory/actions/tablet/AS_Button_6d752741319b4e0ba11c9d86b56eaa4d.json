@@ -1,0 +1,17 @@
+{
+    "AS_Button_6d752741319b4e0ba11c9d86b56eaa4d": {
+        "id": "AS_Button_6d752741319b4e0ba11c9d86b56eaa4d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "directorypage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e7e7af553a2f44f9aa7bd693fce73149"
+        },
+        "actions": []
+    }
+}

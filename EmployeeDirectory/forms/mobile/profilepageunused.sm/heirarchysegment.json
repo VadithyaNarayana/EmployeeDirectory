@@ -1,0 +1,287 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bounces_": false,
+    "_data_": [
+        [
+            {
+                "datacontainer1": {},
+                "department": {},
+                "designation": {},
+                "empimage": {},
+                "empname": {},
+                "headerdotimage": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "slider.png"
+                },
+                "headerdotlabel": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "||||||||||||||||||||||||||||||||||||||||||||||||"
+                },
+                "heirarchysectionheadcontainer": {},
+                "maincontainer": {},
+                "onlineimage": {},
+                "sectionheadlabel": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": " Reporting to:"
+                }
+            },
+            [
+                {
+                    "department": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Department"
+                    },
+                    "designation": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Designation"
+                    },
+                    "empimage": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "image1.png"
+                    },
+                    "empname": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Acker,clara"
+                    },
+                    "headerdotlabel": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                    },
+                    "onlineimage": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "slider.png"
+                    }
+                },
+                {
+                    "department": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Department"
+                    },
+                    "designation": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Designation"
+                    },
+                    "empimage": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "image1.png"
+                    },
+                    "empname": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Acker,clara"
+                    },
+                    "headerdotlabel": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                    },
+                    "onlineimage": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "slider.png"
+                    }
+                }
+            ]
+        ],
+        [
+            {
+                "datacontainer1": {},
+                "department": {},
+                "designation": {},
+                "empimage": {},
+                "empname": {},
+                "headerdotimage": {
+                    "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                    "src": "slider.png"
+                },
+                "headerdotlabel": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": "||||||||||||||||||||||||||||||||||||||||||||||||"
+                },
+                "heirarchysectionheadcontainer": {},
+                "maincontainer": {},
+                "onlineimage": {},
+                "sectionheadlabel": {
+                    "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                    "text": " Reporting to:"
+                }
+            },
+            [
+                {
+                    "department": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Department"
+                    },
+                    "designation": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Designation"
+                    },
+                    "empimage": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "image1.png"
+                    },
+                    "empname": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Acker,clara"
+                    },
+                    "headerdotlabel": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                    },
+                    "onlineimage": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "slider.png"
+                    }
+                },
+                {
+                    "department": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Department"
+                    },
+                    "designation": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Designation"
+                    },
+                    "empimage": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "image1.png"
+                    },
+                    "empname": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "Acker,clara"
+                    },
+                    "headerdotlabel": {
+                        "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                        "text": "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||"
+                    },
+                    "onlineimage": {
+                        "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                        "src": "slider.png"
+                    }
+                }
+            ]
+        ]
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_render_": true,
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "96%"
+    },
+    "android": {
+        "psp": {
+            "dockSectionHeaders": false
+        },
+        "render": true
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "11",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": true,
+    "id": "heirarchysegment",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bounces": false,
+            "indicator": "none"
+        },
+        "render": true
+    },
+    "isvisible": false,
+    "kuid": "6d4e30f17d2b4be18aa08206670a24f3",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "onreachingbeginning": "AS_Segment_fdc3500c5e4d4a13834ea9eae040b566",
+    "pageoffdotimage": "pageOffDot.png",
+    "pageondotimage": "pageOnDot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "totalscroll",
+    "pf": "profilepageunused",
+    "retainselection": false,
+    "rowTemplateId": "7996943c1ba54beba589aeeeb75e148b",
+    "rowcounter": 1,
+    "rowfocusskin": "s91d64622a13467d9d92afef0a4fa28a",
+    "rowskin": "sa11e7cde5814b4687ddc44b8bbdf027",
+    "rowtemplate": "maincontainer",
+    "screenlevelwidget": false,
+    "seccounter": 1,
+    "sectionHeaderTemplateId": "a912b87608e54f7691383b089a0d0054",
+    "sectionheaderskin": "sc8dfd5370984b49bb9f7ccce24fef1a",
+    "sectionheadertemplate": "heirarchysectionheadcontainer",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showscrollbars": false,
+    "spaan": {
+        "render": true
+    },
+    "spabb": {
+        "render": true
+    },
+    "spaip": {
+        "render": true
+    },
+    "spawinphone8": {
+        "render": true
+    },
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "datacontainer1": "datacontainer1",
+        "department": "department",
+        "designation": "designation",
+        "empimage": "empimage",
+        "empname": "empname",
+        "headerdotimage": "headerdotimage",
+        "headerdotlabel": "headerdotlabel",
+        "heirarchysectionheadcontainer": "heirarchysectionheadcontainer",
+        "maincontainer": "maincontainer",
+        "onlineimage": "onlineimage",
+        "sectionheadlabel": "sectionheadlabel"
+    },
+    "winphone8": {
+        "render": true
+    }
+}

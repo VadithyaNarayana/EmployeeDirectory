@@ -1,0 +1,29 @@
+{
+    "AS_Image_21eb0451bc96494e8c671d259b9d58dc": {
+        "id": "AS_Image_21eb0451bc96494e8c671d259b9d58dc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "profilepageunused",
+            "type": "forms",
+            "platform": "",
+            "KUID": "72a3378da1cf43ac93642a74d650f38e"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__8d8d7fa180c24bd4a4449ddf5821c18d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "openMediaGallery(profilepage.employeeimage);",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

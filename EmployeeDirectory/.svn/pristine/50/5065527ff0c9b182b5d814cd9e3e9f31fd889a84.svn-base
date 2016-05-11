@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "60%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "75%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sdef6ba6f1eb4d14b1416e2fd2659408",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "5%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "20%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sa4b84b95f024a95b0d7af89339435c9",
+    "id": "donebutton",
+    "info": null,
+    "isvisible": false,
+    "kuid": "6968ab96a2714843b0e467b7dce1fb6d",
+    "name": "kony.ui.Button",
+    "ontouchstart": "AS_Button_e8568319f4da45f4bb4eb9ffd8c152a5",
+    "parent": "dataeditflex",
+    "pf": "profilepageunused",
+    "texti18n": "i18n.done.text",
+    "wType": "Button"
+}

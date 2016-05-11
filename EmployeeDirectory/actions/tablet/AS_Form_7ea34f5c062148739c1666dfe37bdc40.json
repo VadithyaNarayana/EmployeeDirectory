@@ -1,0 +1,41 @@
+{
+    "AS_Form_7ea34f5c062148739c1666dfe37bdc40": {
+        "id": "AS_Form_7ea34f5c062148739c1666dfe37bdc40",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "profilepage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "4d743f38d56c431b837ff9126d252c5e"
+        },
+        "actions": [{
+            "id": "INVOKE_FUNCTION___8fa9eab878ce4f04a799de15eb1c8be3",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "profilePreshow",
+            "display": "profilePreshow",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "INVOKE_FUNCTION___6b254513d5124205b2a15bed59637634",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "heirarchylist1",
+            "display": "heirarchylist1",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "INVOKE_FUNCTION___b4275d1612754fdd9ad132b01c28513e",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "ondetailsscrollSwipe1",
+            "display": "ondetailsscrollSwipe1",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

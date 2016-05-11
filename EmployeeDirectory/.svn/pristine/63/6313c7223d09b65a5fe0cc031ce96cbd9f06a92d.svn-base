@@ -1,0 +1,31 @@
+{
+    "AS_FlexContainer_d4ba01d1792b4847a96045cbf60af1f5": {
+        "id": "AS_FlexContainer_d4ba01d1792b4847a96045cbf60af1f5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "detailspage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "76e332557d5e47c897c3d2bc1d17bbad"
+        },
+        "actions": [{
+            "id": "INVOKE_FUNCTION___f98bfe17e5be46899720f1be62fb95ce",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "fcontainertouch",
+            "display": "fcontainertouch",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

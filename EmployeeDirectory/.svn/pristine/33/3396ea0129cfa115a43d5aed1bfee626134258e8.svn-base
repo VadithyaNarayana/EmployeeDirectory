@@ -1,0 +1,16 @@
+{
+    "AS_Button_92fc2a6a4bb74dfda1125d543c2bb3a1": {
+        "id": "AS_Button_92fc2a6a4bb74dfda1125d543c2bb3a1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "actions": [{
+            "id": "ADD_SNIPPET_onClick_770e32ee104d4488bdba3047b2ae37e4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "onClickHierarchy();",
+            "callbackType": null
+        }]
+    }
+}

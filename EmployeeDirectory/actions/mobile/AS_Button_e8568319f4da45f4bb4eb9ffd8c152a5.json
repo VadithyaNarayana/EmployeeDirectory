@@ -1,0 +1,29 @@
+{
+    "AS_Button_e8568319f4da45f4bb4eb9ffd8c152a5": {
+        "id": "AS_Button_e8568319f4da45f4bb4eb9ffd8c152a5",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "profilepageunused",
+            "type": "forms",
+            "platform": "",
+            "KUID": "72a3378da1cf43ac93642a74d650f38e"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__42dc9aa853ca445086fc1dfb3cd05a44",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "profilepage.mobilec.text=profilepage.mobiletext.text;\nprofilepage.skypec.text=profilepage.skypetext.text;\nprofilepage.addressc.text=profilepage.addresstext.text;\nprofilepage.Timezonec.text=profilepage.timezonetext.text;\nprofilepage.Groupsc.text=profilepage.groupstext.text;\nprofilepage.mobiletext.text=\"\";\nprofilepage.skypetext.text=\"\";\nprofilepage.addresstext.text=\"\";\nprofilepage.timezonetext.text=\"\";\nprofilepage.groupstext.text=\"\";\nprofilepage.cancelbutton.isVisible=\"false\";\nprofilepage.donebutton.isVisible=\"false\";\nprofilepage.dataeditimage.isVisible=\"true\";\nprofilepage.mobiletext.isVisible=\"false\";\nprofilepage.skypetext.isVisible=\"false\";\nprofilepage.addresstext.isVisible=\"false\";\nprofilepage.timezonetext.isVisible=\"false\";\nprofilepage.groupstext.isVisible=\"false\";\n\n\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "AS_FlexContainer_8e918332a40d4b459feae491af0bac30": {
+        "id": "AS_FlexContainer_8e918332a40d4b459feae491af0bac30",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "frmLogin",
+            "type": "forms",
+            "platform": "",
+            "KUID": "2623c80ba1d748d099bb9c72535b6f8e"
+        },
+        "sourceObj": {
+            "itemKUID": "a180449959ba436fadfadc42a1b85a8d",
+            "widgetKUID": "23e031222ae3468ab180c1a3dd35a9ce",
+            "evt": "onTouchStart"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__649ad9caf32d4b9fab7c3cc54151dc1d",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "rememberMeClicked();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "AS_Form_5289b0eca403408aa0d38cfe6a85a925": {
+        "id": "AS_Form_5289b0eca403408aa0d38cfe6a85a925",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "directorypage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c63867c4976342aeb031a52c5abc8743"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__c6b75b4adea245928eda0b2a595ffdfa",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "initEmployeeListWithStaticData();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

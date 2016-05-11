@@ -1,0 +1,19 @@
+{
+    "AS_Segment_fdc3500c5e4d4a13834ea9eae040b566": {
+        "id": "AS_Segment_fdc3500c5e4d4a13834ea9eae040b566",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "actions": [{
+            "id": "INVOKE_FUNCTION___21962f8b40a64f64a4bcb27e5691f2c8",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "fcontainertouch1",
+            "display": "fcontainertouch1",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

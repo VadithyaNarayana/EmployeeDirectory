@@ -1,0 +1,87 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "68.80%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s586414d50894eefa5253ea178c0a0be",
+    "_top_": {
+        "type": "string",
+        "value": "52.25%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "allboxes": [],
+    "allowhorizontalbounce": true,
+    "allowverticalbounce": true,
+    "bounces": false,
+    "bouncesZoom": false,
+    "canUpdateUI": true,
+    "children": [
+        "d1flex",
+        "d2flex",
+        "d3flex",
+        "d4flex",
+        "d5flex",
+        "d6flex",
+        "d7flex",
+        "d8flex",
+        "d9flex",
+        "d10flex",
+        "d11flex",
+        "d12flex"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "decelerat": false,
+    "dragg": false,
+    "enablescrolling": true,
+    "horizontalscrollindicator": true,
+    "id": "totalscroll",
+    "info": null,
+    "iphone": {
+        "psp": {
+            "bouncesZoom": false
+        }
+    },
+    "isvisible": true,
+    "kuid": "84d0e8f9b3474021b678963f38d5b30c",
+    "layouttype": 2,
+    "name": "kony.ui.FlexScrollContainer",
+    "onscrollend": "AS_FlexScrollContainer_dd0cba1ed0ea4136995ba632fbdaa7b9",
+    "onscrolling": "AS_FlexScrollContainer_ca22993d2a69417192e3bb2108667f0a",
+    "onscrolltouchreleased": "AS_FlexScrollContainer_c4e46231e713442ea6428b3bc2ca195d",
+    "ontouchmove": "AS_FlexScrollContainer_7cad1fdbc3c643269cb39caef6a75677",
+    "pagingenabled": false,
+    "parent": "detailspage",
+    "pf": "detailspage",
+    "scrolldirection": 2,
+    "snapgridsize": 10,
+    "snaptogrid": false,
+    "track": false,
+    "verticalscrollindicator": false,
+    "wType": "FlexScrollContainer",
+    "widgetalignment": 1,
+    "zindex": 3
+}

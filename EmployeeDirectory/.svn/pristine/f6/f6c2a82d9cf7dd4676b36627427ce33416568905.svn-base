@@ -1,0 +1,60 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizTextBox2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "6%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "",
+    "_skin_": "s7e7ddd75ba3431dbb1be7c669e69699",
+    "_text_": "",
+    "_top_": {
+        "type": "string",
+        "value": "55%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "75%"
+    },
+    "autocapitalize": "none",
+    "autocomplete": false,
+    "autocorrect": false,
+    "autofilter": false,
+    "canUpdateUI": true,
+    "containerheight": "",
+    "containerheightmode": 1,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "s7e7ddd75ba3431dbb1be7c669e69699",
+    "id": "skypetext",
+    "info": null,
+    "isvisible": true,
+    "keyboardtype": "A",
+    "kuid": "fa48d30b8d53452a9aa744c3b8116f67",
+    "mode": "A",
+    "name": "kony.ui.TextBox2",
+    "parent": "d9flex",
+    "pf": "profilepageunused",
+    "securetextentry": false,
+    "textinputmode": "A",
+    "viewtype": "default",
+    "wType": "TextField",
+    "zindex": 1
+}

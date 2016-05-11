@@ -1,0 +1,25 @@
+{
+    "AS_Form_577f278a689b4045985b0353a29d130f": {
+        "id": "AS_Form_577f278a689b4045985b0353a29d130f",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "detailspage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "76e332557d5e47c897c3d2bc1d17bbad"
+        },
+        "actions": [{
+            "id": "INVOKE_FUNCTION___7a9cc4c05cf14a9bab9b394786856635",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "ondetailsscrollSwipe",
+            "display": "ondetailsscrollSwipe",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

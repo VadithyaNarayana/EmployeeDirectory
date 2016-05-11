@@ -1,0 +1,33 @@
+{
+    "AS_Form_54709277d1d743b2be5781eb5357c2bc": {
+        "id": "AS_Form_54709277d1d743b2be5781eb5357c2bc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "profilepageunused",
+            "type": "forms",
+            "platform": "",
+            "KUID": "72a3378da1cf43ac93642a74d650f38e"
+        },
+        "actions": [{
+            "id": "INVOKE_FUNCTION___7b8e3023736d47379eac7694c3cbe477",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "profilePreshow",
+            "display": "profilePreshow",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "INVOKE_FUNCTION___2e0807e07f834b59b5dbc147a54caaf5",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "ondetailsscrollSwipe1",
+            "display": "ondetailsscrollSwipe1",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

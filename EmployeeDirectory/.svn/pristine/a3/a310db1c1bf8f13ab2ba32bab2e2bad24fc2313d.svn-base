@@ -1,0 +1,17 @@
+{
+  "background_color": "ffffffff",
+  "bg_type": "one",
+  "border_color": "ffffffff",
+  "ipad": {
+    "isForked": true
+  },
+  "isDefaultSkin": false,
+  "kuid": "sb5bc31fc0c24a6581002ff9ae65105d",
+  "tabrcandroid": {
+    "isForked": true
+  },
+  "wType": "Form",
+  "windows8": {
+    "isForked": true
+  }
+}

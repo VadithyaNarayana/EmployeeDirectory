@@ -1,0 +1,25 @@
+{
+    "AS_Form_3a738b6508d24021b1613ae795883626": {
+        "id": "AS_Form_3a738b6508d24021b1613ae795883626",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "directorypage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e7e7af553a2f44f9aa7bd693fce73149"
+        },
+        "actions": [{
+            "id": "INVOKE_FUNCTION___190a58e857054a4dbadb1f74ba620d11",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "empTabletList1",
+            "display": "empTabletList1",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

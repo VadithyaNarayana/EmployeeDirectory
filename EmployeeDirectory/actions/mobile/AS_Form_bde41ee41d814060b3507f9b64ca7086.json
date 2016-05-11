@@ -1,0 +1,23 @@
+{
+    "AS_Form_bde41ee41d814060b3507f9b64ca7086": {
+        "id": "AS_Form_bde41ee41d814060b3507f9b64ca7086",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "TestDynamicFlexes",
+            "type": "forms",
+            "platform": null,
+            "KUID": "ef3050bc12ca43cbac7c717f11377b44"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__cacc14d55b784d76b26baf7d205f18f3",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "createDynamicFlexesHierarchy();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

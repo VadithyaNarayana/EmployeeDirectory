@@ -1,0 +1,23 @@
+{
+    "AS_Button_c0dd9aaa51f64b67a784e5b936ca8287": {
+        "id": "AS_Button_c0dd9aaa51f64b67a784e5b936ca8287",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "directorypage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ebac7443c293431ca451ee05dea129be"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__bcee6a4479ba4df0b7be02860d78c1e9",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "directorypage.searchimage.isVisible=true;\ndirectorypage.searchlabel.isVisible=true;\ndirectorypage.searchinvis.isVisible=false;\ndirectorypage.cancelbutton.isVisible=false;\ndirectorypage.searchbox.text=\"\";\ndirectorypage.buttonsflex.isVisible=true;\nsearchCondition(directorypage.searchbox.text);\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

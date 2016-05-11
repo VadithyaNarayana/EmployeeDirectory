@@ -1,0 +1,17 @@
+{
+    "AS_Button_87514f6bbae048efba09b1fd231a7383": {
+        "id": "AS_Button_87514f6bbae048efba09b1fd231a7383",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "actions": [{
+            "id": "ADD_SNIPPET__6034000261eb409c8daeee12e6310fa8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "directorypage.show();\nfcontainertouch();\ndetailspage.detailscolor.left = \"0%\";\ndetailspage.flxScrollSegment.removeAll();\ndetailspage.destroy();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

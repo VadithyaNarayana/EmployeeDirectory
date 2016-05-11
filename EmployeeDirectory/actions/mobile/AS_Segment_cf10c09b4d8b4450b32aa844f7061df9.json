@@ -1,0 +1,16 @@
+{
+    "AS_Segment_cf10c09b4d8b4450b32aa844f7061df9": {
+        "id": "AS_Segment_cf10c09b4d8b4450b32aa844f7061df9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "actions": [{
+            "id": "ADD_SNIPPET_onPull_0715a9655d3e4236835656d69bea7ce6",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "alert(\"pull\");\nscrollSegment();",
+            "callbackType": null
+        }]
+    }
+}

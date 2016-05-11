@@ -1,0 +1,23 @@
+{
+    "AS_Button_fb1744fa777f49d49f243380dc4360e1": {
+        "id": "AS_Button_fb1744fa777f49d49f243380dc4360e1",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "directorypage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ebac7443c293431ca451ee05dea129be"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__038539096ce646b08c5b3a82bf60469b",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(directorypage.hrimage.src===\"checkboxinactive.png\")\n{\n\tdirectorypage.hrimage.src=\"checkboxactive.png\";\n\tflag1=1;\n}\nelse\n{\n\tdirectorypage.hrimage.src=\"checkboxinactive.png\";\n    flag1=1;\n}\ndirectorypage.ascendingimage.src=\"ascending.png\";\ndirectorypage.descendingimage.src=\"descending.png\";",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

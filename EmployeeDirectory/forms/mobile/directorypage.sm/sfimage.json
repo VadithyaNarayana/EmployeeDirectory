@@ -1,0 +1,59 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_bottom_": {
+        "type": "string",
+        "value": "4%"
+    },
+    "_height_": {
+        "type": "string",
+        "value": "75dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "12.50%"
+    },
+    "_skin_": "sfb97671f4094275a37e9841c6baad13",
+    "_src_": "filter.png",
+    "_width_": {
+        "type": "string",
+        "value": "75dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "formID": "directorypage",
+        "platform": "spaip",
+        "templateType": "forms",
+        "topLevelBox": null
+    },
+    "id": "sfimage",
+    "imagescalemode": 0,
+    "info": null,
+    "invokedProperty": "src",
+    "isvisible": true,
+    "kuid": "fdf649db78ec478e89058ad4cb9fe25a",
+    "name": "kony.ui.Image2",
+    "ontouchstart": "AS_Image_ea7ffea313ed4482b19e00e47ae7c965",
+    "parent": "directorypage",
+    "pf": "directorypage",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 4
+}

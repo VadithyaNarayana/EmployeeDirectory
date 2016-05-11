@@ -1,0 +1,17 @@
+{
+    "AS_Button_f74940f0bbaa4236b90b823cb284ffbc": {
+        "id": "AS_Button_f74940f0bbaa4236b90b823cb284ffbc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "actions": [{
+            "id": "ADD_SNIPPET__7e05974271994e57a5e9fe34c000adc4",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "directorypage.show();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

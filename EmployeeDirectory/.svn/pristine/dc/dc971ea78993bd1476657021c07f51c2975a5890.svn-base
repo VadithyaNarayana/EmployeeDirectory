@@ -1,0 +1,23 @@
+{
+    "AS_FlexContainer_702e2866738542d197bd09aebf12241d": {
+        "id": "AS_FlexContainer_702e2866738542d197bd09aebf12241d",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "detailspage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "a51dd546ca794cb98d5b91992ac14e3d"
+        },
+        "actions": []
+    }
+}

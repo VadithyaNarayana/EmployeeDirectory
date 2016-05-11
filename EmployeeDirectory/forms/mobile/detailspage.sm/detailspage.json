@@ -1,0 +1,119 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizScrollFlexForm",
+    "DNDConfig": null,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_render_": true,
+    "_skin_": "sad2415abb4249a5a02e9542e7603e27",
+    "_title_": null,
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "android": {
+        "needAppMenu": false,
+        "render": true
+    },
+    "bounces": false,
+    "canUpdateUI": true,
+    "children": [
+        "photoflex",
+        "backimage",
+        "backbutton",
+        "categoryflex",
+        "totalscroll",
+        "staticimage",
+        "flxScrollSegment"
+    ],
+    "containerweight": 100,
+    "currentLocale": "en_GB",
+    "desktopweb": {
+        "needAppMenu": false
+    },
+    "device": "iPhone6",
+    "displayorientation": 1,
+    "enabledforidletimeout": false,
+    "enablescrolling": false,
+    "id": "detailspage",
+    "info": null,
+    "initdone": false,
+    "inputaccessoryviewtype": 4,
+    "ipad": {
+        "psp": {
+            "inputAccessoryViewType": 4
+        }
+    },
+    "iphone": {
+        "needAppMenu": false,
+        "psp": {
+            "inputAccessoryViewType": 4,
+            "statusBarHidden": true,
+            "titleBarConfig": {
+                "buttonClosureLeftSideView": "",
+                "buttonClosureRightSideView": "",
+                "buttonText": "Edit",
+                "leftButtonText": "Back",
+                "leftTitle": "Back",
+                "prevFormTitle": false,
+                "renderTitleText": true,
+                "rightTitle": "Edit",
+                "titleBarLeftSideView": "button",
+                "titleBarRightSideView": "button",
+                "titleClosureLeftSideView": "",
+                "titleClosureRightSideView": "",
+                "visible": false
+            }
+        },
+        "render": true,
+        "titleBar": false
+    },
+    "isvisible": true,
+    "kuid": "a51dd546ca794cb98d5b91992ac14e3d",
+    "layouttype": 2,
+    "name": "kony.ui.Form2",
+    "needappmenu": true,
+    "paddinginpixel": false,
+    "platform": "iphone",
+    "postshow": "AS_Form_c8ae0453feac4b139192a6e698c920a1",
+    "preshow": "AS_Form_6da965d0c1384480841bdaf877ad3696",
+    "prevDevice": "GalaxyS5",
+    "prevPlatform": "android",
+    "retainscrollposition": false,
+    "shellCSS": "iOS_iPhone6",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "spaan": {
+        "needAppMenu": true,
+        "render": true
+    },
+    "spabb": {
+        "needAppMenu": true,
+        "render": true
+    },
+    "spaip": {
+        "needAppMenu": true,
+        "render": true
+    },
+    "spawinphone8": {
+        "needAppMenu": true,
+        "render": true
+    },
+    "titleBarSkin": "se80c1d165bf4bebbfbbbf60344099d8",
+    "titlebar": false,
+    "type": 3,
+    "wType": "Form",
+    "winphone8": {
+        "needAppMenu": true,
+        "render": true
+    }
+}

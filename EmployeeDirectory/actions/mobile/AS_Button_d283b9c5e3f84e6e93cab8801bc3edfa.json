@@ -1,0 +1,50 @@
+{
+    "AS_Button_d283b9c5e3f84e6e93cab8801bc3edfa": {
+        "id": "AS_Button_d283b9c5e3f84e6e93cab8801bc3edfa",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "directorypage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "c63867c4976342aeb031a52c5abc8743"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__8397db0ba2c3463a83abe448de1df4b8",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "if(directorypage.navigationflex.left === \"0%\")\n  {\n    directorypage.buttonsflex.left=\"91%\";\n    directorypage.sfimage.left=\"75%\";\n    directorypage.datasegment.left=\"0%\";\n    directorypage.innerflex.left=\"0%\";\n    directorypage.navigationflex.left=\"-25%\";\n  }\nelse\n  {\n     directorypage.buttonsflex.left=\"120%\";\n    directorypage.sfimage.left=\"120%\";\n    directorypage.datasegment.left=\"25%\";\n    directorypage.innerflex.left=\"25%\";\n    directorypage.navigationflex.left=\"0%\";\n  }",
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "MOVE_ACTION____1e0314ca555e44d4a6cd25cec8a47ae4",
+            "type": "MOVE_ACTION",
+            "itemType": "FORM",
+            "itemId": "directorypage",
+            "widgetId": "hamburgerbutton",
+            "itemKUID": "c63867c4976342aeb031a52c5abc8743",
+            "widgetKUID": "a83e617372b64075bf03afea7cfc7df4",
+            "animationObject": {
+                "anchorPoint": {},
+                "stepConfig": {
+                    "timingFunction": "kony.anim.EASE"
+                }
+            },
+            "config": {
+                "delay": "0",
+                "iterationCount": 1,
+                "fillMode": "kony.anim.FILL_MODE_FORWARDS",
+                "duration": "250"
+            },
+            "start": "Immediately",
+            "parentAnimation": "MOVE_ACTION____0fc8e37bec954b8f8a30a1235532794f",
+            "animationId": "MOVE_ACTION____1e0314ca555e44d4a6cd25cec8a47ae4",
+            "displayAnimationId": "MOVE_ACTION____1e0314ca555e44d4a6cd25cec8a47ae4",
+            "forkedPlatform": "all",
+            "parentId": "IF_CONDITION__71c8ec92d3c14803a9b6698a651ad8bd",
+            "callbackType": null
+        }]
+    }
+}

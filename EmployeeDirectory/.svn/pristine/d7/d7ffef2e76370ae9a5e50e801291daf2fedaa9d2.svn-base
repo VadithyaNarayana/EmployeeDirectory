@@ -1,0 +1,31 @@
+{
+    "AS_FlexContainer_e01c8f75275e40e7a9ea4c5fde956a8a": {
+        "id": "AS_FlexContainer_e01c8f75275e40e7a9ea4c5fde956a8a",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "x"
+        }, {
+            "datatype": "string",
+            "name": "y"
+        }],
+        "contextObj": {
+            "name": "directorypage",
+            "type": "forms",
+            "platform": "",
+            "KUID": "e7e7af553a2f44f9aa7bd693fce73149"
+        },
+        "actions": [{
+            "id": "INVOKE_FUNCTION___f678691a319a461bad5e20036907de2e",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "tabletfcontainertouch",
+            "display": "tabletfcontainertouch",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

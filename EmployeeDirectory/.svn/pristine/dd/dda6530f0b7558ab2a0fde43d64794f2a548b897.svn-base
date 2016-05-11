@@ -1,0 +1,62 @@
+{
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "60%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 6,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s844e453842546d186c41c641895bdbc",
+    "_top_": {
+        "type": "string",
+        "value": "11.20%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "70%"
+    },
+    "allboxes": [],
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "children": [
+        "hrflex",
+        "salesflex",
+        "executiveflex",
+        "financeflex",
+        "advisoryflex",
+        "communicationflex"
+    ],
+    "clipbounds": true,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "filtergroupflex",
+    "info": null,
+    "isvisible": true,
+    "kuid": "504b4613e47643689f890cb4e7bb8143",
+    "layouttype": 4,
+    "name": "kony.ui.FlexContainer",
+    "parent": "sortandfilter",
+    "pf": "directorypage",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
+    "zindex": 1
+}

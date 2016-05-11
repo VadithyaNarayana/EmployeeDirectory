@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizImage2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_base64_": null,
+    "_height_": {
+        "type": "string",
+        "value": "35%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "4.60%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sfb97671f4094275a37e9841c6baad13",
+    "_src_": "menublue.png",
+    "_top_": {
+        "type": "string",
+        "value": "12.50%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "14%"
+    },
+    "canUpdateUI": true,
+    "containerId": true,
+    "containerweight": 100,
+    "context": {
+        "channel": "mobile",
+        "platform": "iphone",
+        "templateType": "headers",
+        "topLevelBox": null
+    },
+    "id": "hamburgerimage",
+    "imagescalemode": 0,
+    "info": null,
+    "invokedProperty": "src",
+    "isvisible": true,
+    "kuid": "080ac1c7beab4b128f5f7931c3c1f904",
+    "name": "kony.ui.Image2",
+    "parent": "mainflex",
+    "pf": "headertemplate",
+    "srcType": 1,
+    "wType": "Image",
+    "widgetalignment": 5,
+    "zindex": 2
+}

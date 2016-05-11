@@ -1,0 +1,1344 @@
+function addWidgetsprofilepageunused() {
+    profilepageunused.setDefaultUnit(kony.flex.DP);
+    var photoflex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "42.25%",
+        "id": "photoflex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "mflex",
+        "top": "0%",
+        "width": "100%",
+        "zIndex": 2
+    }, {}, {});
+    photoflex.setDefaultUnit(kony.flex.DP);
+    var photoflex1 = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "bottom": "0%",
+        "clipBounds": true,
+        "height": "35.40%",
+        "id": "photoflex1",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "mbeforeanim",
+        "top": "64.60%",
+        "width": "100%",
+        "zIndex": 2
+    }, {}, {});
+    photoflex1.setDefaultUnit(kony.flex.DP);
+    photoflex1.add();
+    var empname = new kony.ui.Label({
+        "height": "8.70%",
+        "id": "empname",
+        "isVisible": true,
+        "left": "10%",
+        "skin": "belabel",
+        "text": "Alfred Kevin",
+        "top": "81%",
+        "width": "80%",
+        "zIndex": 2
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_TOP_CENTER,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var designationlabel = new kony.ui.Label({
+        "height": "10%",
+        "id": "designationlabel",
+        "isVisible": true,
+        "left": "25%",
+        "skin": "bdlabel",
+        "text": "program manager",
+        "top": "91%",
+        "width": "50%",
+        "zIndex": 2
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_TOP_CENTER,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var flxImgBdg = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "35%",
+        "id": "flxImgBdg",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "38%",
+        "skin": "slFbox",
+        "top": "45.60%",
+        "width": "25%",
+        "zIndex": 2
+    }, {}, {});
+    flxImgBdg.setDefaultUnit(kony.flex.DP);
+    var employeeimage = new kony.ui.Image2({
+        "height": "100%",
+        "id": "employeeimage",
+        "isVisible": true,
+        "left": "0%",
+        "skin": "slImage",
+        "src": "image1.png",
+        "top": "0%",
+        "width": "100%",
+        "zIndex": 2
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    var onlineimage = new kony.ui.Image2({
+        "height": "20dp",
+        "id": "onlineimage",
+        "isVisible": true,
+        "left": "72.50%",
+        "skin": "slImage",
+        "src": "available.png",
+        "top": "74%",
+        "width": "20dp",
+        "zIndex": 2
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    flxImgBdg.add(
+    employeeimage, onlineimage);
+    var profileeditimage = new kony.ui.Image2({
+        "height": "25dp",
+        "id": "profileeditimage",
+        "isVisible": true,
+        "left": "48%",
+        "onTouchStart": AS_Image_21eb0451bc96494e8c671d259b9d58dc,
+        "skin": "slImage",
+        "src": "editiconwhite.png",
+        "top": "62%",
+        "width": "25dp",
+        "zIndex": 3
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    var coverphotoeditimage = new kony.ui.Image2({
+        "height": "25dp",
+        "id": "coverphotoeditimage",
+        "isVisible": true,
+        "left": "85%",
+        "onTouchStart": AS_Image_f21a502c54bd42d69ce39f2a0568abb9,
+        "skin": "slImage",
+        "src": "editiconwhite.png",
+        "top": "45%",
+        "width": "25dp",
+        "zIndex": 1
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    photoflex.add(
+    photoflex1, empname, designationlabel, flxImgBdg, profileeditimage, coverphotoeditimage);
+    var staticimage = new kony.ui.Image2({
+        "height": "42.25%",
+        "id": "staticimage",
+        "isVisible": true,
+        "left": "0%",
+        "skin": "CopyslImage01d6792abb70340",
+        "src": "profilebanner2.png",
+        "top": "0%",
+        "width": "100%"
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    var backimage = new kony.ui.Image2({
+        "height": "10dp",
+        "id": "backimage",
+        "isVisible": true,
+        "left": "3%",
+        "skin": "slImage",
+        "src": "backwhite.png",
+        "top": "2%",
+        "width": "10dp",
+        "zIndex": 3
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    var categoryflex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "10%",
+        "id": "categoryflex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "categoryskin",
+        "top": "42.25%",
+        "width": "100%",
+        "zIndex": 2
+    }, {}, {});
+    categoryflex.setDefaultUnit(kony.flex.DP);
+    var detailsoption = new kony.ui.Label({
+        "id": "detailsoption",
+        "isVisible": true,
+        "left": "17%",
+        "skin": "tlabvis",
+        "text": kony.i18n.getLocalizedString("i18n.details.text"),
+        "top": "36%",
+        "width": kony.flex.USE_PREFFERED_SIZE
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var hierarchyoption = new kony.ui.Label({
+        "id": "hierarchyoption",
+        "isVisible": true,
+        "left": "65%",
+        "skin": "tlabinvis",
+        "text": kony.i18n.getLocalizedString("i18n.hierarchy.text"),
+        "top": "32%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var seperatorlabel = new kony.ui.Label({
+        "height": "100%",
+        "id": "seperatorlabel",
+        "isVisible": true,
+        "left": "50%",
+        "skin": "CopyslLabel0639e8bb30d8b48",
+        "top": "0%",
+        "width": "1px",
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var detailscolor = new kony.ui.Label({
+        "height": "7%",
+        "id": "detailscolor",
+        "isVisible": true,
+        "left": "0%",
+        "skin": "colorvis",
+        "top": "93%",
+        "width": "50%",
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var detailsbutton = new kony.ui.Button({
+        "focusSkin": "btn4",
+        "height": "50%",
+        "id": "detailsbutton",
+        "isVisible": true,
+        "left": "12%",
+        "onClick": AS_Button_b4317dd348e1491d992fcccd8c0dae47,
+        "skin": "btn4",
+        "top": "30%",
+        "width": "25%",
+        "zIndex": 2
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var heirarchybutton = new kony.ui.Button({
+        "focusSkin": "btn4",
+        "height": "50%",
+        "id": "heirarchybutton",
+        "isVisible": true,
+        "left": "60%",
+        "onClick": AS_Button_92fc2a6a4bb74dfda1125d543c2bb3a1,
+        "skin": "btn4",
+        "top": "30%",
+        "width": "28%",
+        "zIndex": 2
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    categoryflex.add(
+    detailsoption, hierarchyoption, seperatorlabel, detailscolor, detailsbutton, heirarchybutton);
+    var backbutton = new kony.ui.Button({
+        "focusSkin": "btn3",
+        "height": "6%",
+        "id": "backbutton",
+        "isVisible": true,
+        "left": "4%",
+        "onClick": AS_Button_f74940f0bbaa4236b90b823cb284ffbc,
+        "skin": "btn3",
+        "top": "0%",
+        "width": "10%",
+        "zIndex": 4
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var dataeditflex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "10%",
+        "id": "dataeditflex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "CopyslFbox0f3ea7c1b693348",
+        "top": "52.15%",
+        "width": "100%",
+        "zIndex": 4
+    }, {}, {});
+    dataeditflex.setDefaultUnit(kony.flex.DP);
+    var cancelbutton = new kony.ui.Button({
+        "centerY": "50%",
+        "focusSkin": "slButtonGlossRed",
+        "height": "60%",
+        "id": "cancelbutton",
+        "isVisible": false,
+        "left": "5%",
+        "onClick": AS_Button_bd3eb50669174c269c2d006a4103941e,
+        "skin": "profiletextbtnskin",
+        "text": kony.i18n.getLocalizedString("i18n.cancel.text"),
+        "top": "5%",
+        "width": "20%"
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var donebutton = new kony.ui.Button({
+        "centerY": "50%",
+        "focusSkin": "slButtonGlossRed",
+        "height": "60%",
+        "id": "donebutton",
+        "isVisible": false,
+        "left": "75%",
+        "onTouchStart": AS_Button_e8568319f4da45f4bb4eb9ffd8c152a5,
+        "skin": "profiletextbtnskin",
+        "text": kony.i18n.getLocalizedString("i18n.done.text"),
+        "top": "5%",
+        "width": "20%"
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_CENTER,
+        "displayText": true,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "showProgressIndicator": true
+    });
+    var dataeditimage = new kony.ui.Image2({
+        "centerY": "50%",
+        "height": "30dp",
+        "id": "dataeditimage",
+        "isVisible": true,
+        "left": "85%",
+        "onTouchStart": AS_Image_46a316adfe974f39a97a2ee849428ebf,
+        "skin": "slImage",
+        "src": "editiconblack.png",
+        "top": "2%",
+        "width": "30dp",
+        "zIndex": 1
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    dataeditflex.add(
+    cancelbutton, donebutton, dataeditimage);
+    var totalscroll = new kony.ui.FlexScrollContainer({
+        "allowHorizontalBounce": true,
+        "allowVerticalBounce": true,
+        "bounces": false,
+        "clipBounds": true,
+        "enableScrolling": true,
+        "height": "58.80%",
+        "horizontalScrollIndicator": false,
+        "id": "totalscroll",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "pagingEnabled": false,
+        "scrollDirection": kony.flex.SCROLL_VERTICAL,
+        "skin": "CopyslFSbox079b84a58a39047",
+        "top": "62.10%",
+        "verticalScrollIndicator": false,
+        "width": "100%",
+        "zIndex": 4
+    }, {}, {});
+    totalscroll.setDefaultUnit(kony.flex.DP);
+    var d1flex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "25%",
+        "id": "d1flex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "onTouchStart": AS_FlexContainer_0131c09cdff14c88b46be4ad32036c06,
+        "skin": "CopyslFbox05546f80c346049",
+        "top": "0%",
+        "width": "100%",
+        "zIndex": 1
+    }, {}, {});
+    d1flex.setDefaultUnit(kony.flex.DP);
+    var titlec = new kony.ui.Label({
+        "id": "titlec",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "majortitle",
+        "text": kony.i18n.getLocalizedString("i18n.title.text"),
+        "top": "22.70%",
+        "width": kony.flex.USE_PREFFERED_SIZE
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var titlecc = new kony.ui.Label({
+        "id": "titlecc",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "CopyslLabel0a8469a64faad45",
+        "text": "Program Manager",
+        "top": "55%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    d1flex.add(
+    titlec, titlecc);
+    var d2flex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "25%",
+        "id": "d2flex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "onTouchStart": AS_FlexContainer_36cdbe9f4539406ca036aadc77336185,
+        "skin": "CopyslFbox0f47f1ea0224a48",
+        "top": "25%",
+        "width": "100%",
+        "zIndex": 1
+    }, {}, {});
+    d2flex.setDefaultUnit(kony.flex.DP);
+    var reportingto = new kony.ui.Label({
+        "id": "reportingto",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "majortitle",
+        "text": kony.i18n.getLocalizedString("i18n.reportingto.text"),
+        "top": "22.70%",
+        "width": kony.flex.USE_PREFFERED_SIZE
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var reportingtoc = new kony.ui.Label({
+        "id": "reportingtoc",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "CopyslLabel0a8469a64faad45",
+        "text": "Surya petravu",
+        "top": "55%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var mimage = new kony.ui.Image2({
+        "height": "28dp",
+        "id": "mimage",
+        "isVisible": true,
+        "left": "85%",
+        "skin": "slImage",
+        "src": "image1.png",
+        "top": "40%",
+        "width": "28dp",
+        "zIndex": 1
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_FIT_TO_DIMENSIONS,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    d2flex.add(
+    reportingto, reportingtoc, mimage);
+    var d3flex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "25%",
+        "id": "d3flex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "onTouchStart": AS_FlexContainer_2b21c59694a34da1b44ddc08836aac13,
+        "skin": "CopyslFbox02eda33c24b6d42",
+        "top": "50%",
+        "width": "100%",
+        "zIndex": 1
+    }, {}, {});
+    d3flex.setDefaultUnit(kony.flex.DP);
+    var department = new kony.ui.Label({
+        "id": "department",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "majortitle",
+        "text": kony.i18n.getLocalizedString("i18n.department.text"),
+        "top": "22.70%",
+        "width": kony.flex.USE_PREFFERED_SIZE
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var departmentc = new kony.ui.Label({
+        "id": "departmentc",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "CopyslLabel0a8469a64faad45",
+        "text": "Release Management",
+        "top": "55%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    d3flex.add(
+    department, departmentc);
+    var d4flex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "25%",
+        "id": "d4flex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "CopyslFbox07fd0983ed49e49",
+        "top": "75%",
+        "width": "100%",
+        "zIndex": 1
+    }, {}, {});
+    d4flex.setDefaultUnit(kony.flex.DP);
+    var emptype = new kony.ui.Label({
+        "id": "emptype",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "majortitle",
+        "text": kony.i18n.getLocalizedString("i18n.emptype.text"),
+        "top": "22.70%",
+        "width": kony.flex.USE_PREFFERED_SIZE
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var emptypec = new kony.ui.Label({
+        "id": "emptypec",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "CopyslLabel0a8469a64faad45",
+        "text": "Customer Facing",
+        "top": "55%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    d4flex.add(
+    emptype, emptypec);
+    var d5flex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "25%",
+        "id": "d5flex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "CopyslFbox0e83e2e5ac1f54d",
+        "top": "100%",
+        "width": "100%",
+        "zIndex": 1
+    }, {}, {});
+    d5flex.setDefaultUnit(kony.flex.DP);
+    var wks = new kony.ui.Label({
+        "id": "wks",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "majortitle",
+        "text": kony.i18n.getLocalizedString("i18n.wks.text"),
+        "top": "22.70%",
+        "width": kony.flex.USE_PREFFERED_SIZE
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var wksc = new kony.ui.Label({
+        "id": "wksc",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "CopyslLabel0a8469a64faad45",
+        "text": "D7-132",
+        "top": "55%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    d5flex.add(
+    wks, wksc);
+    var d6flex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "25%",
+        "id": "d6flex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "CopyslFbox01b98fd5712aa4d",
+        "top": "125%",
+        "width": "100%",
+        "zIndex": 1
+    }, {}, {});
+    d6flex.setDefaultUnit(kony.flex.DP);
+    var location = new kony.ui.Label({
+        "id": "location",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "majortitle",
+        "text": kony.i18n.getLocalizedString("i18n.location.text"),
+        "top": "22.70%",
+        "width": kony.flex.USE_PREFFERED_SIZE
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var locationc = new kony.ui.Label({
+        "id": "locationc",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "CopyslLabel0a8469a64faad45",
+        "text": "7th floor,phoenix infocity",
+        "top": "55%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var limage = new kony.ui.Image2({
+        "height": "28dp",
+        "id": "limage",
+        "isVisible": true,
+        "left": "87%",
+        "skin": "slImage",
+        "src": "mappin.png",
+        "top": "40%",
+        "width": "28dp",
+        "zIndex": 1
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_MAINTAIN_ASPECT_RATIO,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    d6flex.add(
+    location, locationc, limage);
+    var d7flex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "25%",
+        "id": "d7flex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "CopyslFbox0fdefebb221f141",
+        "top": "150%",
+        "width": "100%",
+        "zIndex": 1
+    }, {}, {});
+    d7flex.setDefaultUnit(kony.flex.DP);
+    var mobile = new kony.ui.Label({
+        "id": "mobile",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "majortitle",
+        "text": kony.i18n.getLocalizedString("i18n.mobile.text"),
+        "top": "22.70%",
+        "width": kony.flex.USE_PREFFERED_SIZE
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var mobilec = new kony.ui.Label({
+        "id": "mobilec",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "CopyslLabel0a8469a64faad45",
+        "text": "9999999999",
+        "top": "55%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var mobileimage = new kony.ui.Image2({
+        "height": "36dp",
+        "id": "mobileimage",
+        "isVisible": true,
+        "left": "86%",
+        "skin": "slImage",
+        "src": "listphone.png",
+        "top": "40%",
+        "width": "36dp",
+        "zIndex": 1
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_MAINTAIN_ASPECT_RATIO,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    var mobiletext = new kony.ui.TextBox2({
+        "autoCapitalize": constants.TEXTBOX_AUTO_CAPITALIZE_NONE,
+        "focusSkin": "policytextskin",
+        "height": "40%",
+        "id": "mobiletext",
+        "isVisible": true,
+        "keyBoardStyle": constants.TEXTBOX_KEY_BOARD_STYLE_DEFAULT,
+        "left": "6%",
+        "maxTextLength": 10,
+        "secureTextEntry": false,
+        "skin": "policytextskin",
+        "textInputMode": constants.TEXTBOX_INPUT_MODE_ANY,
+        "top": "55%",
+        "width": "75%",
+        "zIndex": 1
+    }, {
+        "containerHeightMode": constants.TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT,
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [3, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "autoCorrect": false,
+        "closeButtonRequired": true,
+        "keyboardActionLabel": constants.TEXTBOX_KEYBOARD_LABEL_DONE,
+        "showClearButton": true,
+        "showCloseButton": true,
+        "showProgressIndicator": true,
+        "viewType": constants.TEXTBOX_VIEW_TYPE_DEFAULT
+    });
+    d7flex.add(
+    mobile, mobilec, mobileimage, mobiletext);
+    var d8flex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "25%",
+        "id": "d8flex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "CopyslFbox0e5e59942e05c4f",
+        "top": "175%",
+        "width": "100%",
+        "zIndex": 1
+    }, {}, {});
+    d8flex.setDefaultUnit(kony.flex.DP);
+    var email = new kony.ui.Label({
+        "id": "email",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "majortitle",
+        "text": kony.i18n.getLocalizedString("i18n.email.text"),
+        "top": "22.70%",
+        "width": kony.flex.USE_PREFFERED_SIZE
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var emailc = new kony.ui.Label({
+        "id": "emailc",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "CopyslLabel0a8469a64faad45",
+        "text": "bala.carcharla@kony.com",
+        "top": "55%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var mailimage = new kony.ui.Image2({
+        "height": "28dp",
+        "id": "mailimage",
+        "isVisible": true,
+        "left": "87%",
+        "skin": "slImage",
+        "src": "mailicon.png",
+        "top": "40%",
+        "width": "28dp",
+        "zIndex": 1
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_MAINTAIN_ASPECT_RATIO,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    d8flex.add(
+    email, emailc, mailimage);
+    var d9flex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "25%",
+        "id": "d9flex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "CopyslFbox0ff31535ecbda41",
+        "top": "200%",
+        "width": "100%",
+        "zIndex": 1
+    }, {}, {});
+    d9flex.setDefaultUnit(kony.flex.DP);
+    var skype = new kony.ui.Label({
+        "id": "skype",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "majortitle",
+        "text": kony.i18n.getLocalizedString("i18n.skype.text"),
+        "top": "22.70%",
+        "width": kony.flex.USE_PREFFERED_SIZE
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var skypec = new kony.ui.Label({
+        "id": "skypec",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "CopyslLabel0a8469a64faad45",
+        "text": "bala.carcharla",
+        "top": "55%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var skypeimage = new kony.ui.Image2({
+        "height": "36dp",
+        "id": "skypeimage",
+        "isVisible": true,
+        "left": "86%",
+        "skin": "slImage",
+        "src": "listskypeicon.png",
+        "top": "40%",
+        "width": "36dp",
+        "zIndex": 1
+    }, {
+        "imageScaleMode": constants.IMAGE_SCALE_MODE_MAINTAIN_ASPECT_RATIO,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {});
+    var skypetext = new kony.ui.TextBox2({
+        "autoCapitalize": constants.TEXTBOX_AUTO_CAPITALIZE_NONE,
+        "focusSkin": "policytextskin",
+        "height": "40%",
+        "id": "skypetext",
+        "isVisible": true,
+        "keyBoardStyle": constants.TEXTBOX_KEY_BOARD_STYLE_DEFAULT,
+        "left": "6%",
+        "secureTextEntry": false,
+        "skin": "policytextskin",
+        "textInputMode": constants.TEXTBOX_INPUT_MODE_ANY,
+        "top": "55%",
+        "width": "75%",
+        "zIndex": 1
+    }, {
+        "containerHeightMode": constants.TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT,
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [3, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "autoCorrect": false,
+        "closeButtonRequired": true,
+        "keyboardActionLabel": constants.TEXTBOX_KEYBOARD_LABEL_DONE,
+        "showClearButton": true,
+        "showCloseButton": true,
+        "showProgressIndicator": true,
+        "viewType": constants.TEXTBOX_VIEW_TYPE_DEFAULT
+    });
+    d9flex.add(
+    skype, skypec, skypeimage, skypetext);
+    var d10flex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "25%",
+        "id": "d10flex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "CopyslFbox0c8f55d2bbbd643",
+        "top": "225%",
+        "width": "100%",
+        "zIndex": 1
+    }, {}, {});
+    d10flex.setDefaultUnit(kony.flex.DP);
+    var address = new kony.ui.Label({
+        "id": "address",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "majortitle",
+        "text": kony.i18n.getLocalizedString("i18n.address.text"),
+        "top": "22.70%",
+        "width": kony.flex.USE_PREFFERED_SIZE
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var addressc = new kony.ui.Label({
+        "id": "addressc",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "CopyslLabel0a8469a64faad45",
+        "text": "miyapur,Hyderabad",
+        "top": "55%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var addresstext = new kony.ui.TextBox2({
+        "autoCapitalize": constants.TEXTBOX_AUTO_CAPITALIZE_NONE,
+        "focusSkin": "policytextskin",
+        "height": "40%",
+        "id": "addresstext",
+        "isVisible": true,
+        "keyBoardStyle": constants.TEXTBOX_KEY_BOARD_STYLE_DEFAULT,
+        "left": "6%",
+        "secureTextEntry": false,
+        "skin": "policytextskin",
+        "textInputMode": constants.TEXTBOX_INPUT_MODE_ANY,
+        "top": "55%",
+        "width": "75%",
+        "zIndex": 1
+    }, {
+        "containerHeightMode": constants.TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT,
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [3, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "autoCorrect": false,
+        "closeButtonRequired": true,
+        "keyboardActionLabel": constants.TEXTBOX_KEYBOARD_LABEL_DONE,
+        "showClearButton": true,
+        "showCloseButton": true,
+        "showProgressIndicator": true,
+        "viewType": constants.TEXTBOX_VIEW_TYPE_DEFAULT
+    });
+    d10flex.add(
+    address, addressc, addresstext);
+    var d11flex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "25%",
+        "id": "d11flex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "CopyslFbox0f4c63595a82a49",
+        "top": "250%",
+        "width": "100%",
+        "zIndex": 1
+    }, {}, {});
+    d11flex.setDefaultUnit(kony.flex.DP);
+    var Timezone = new kony.ui.Label({
+        "id": "Timezone",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "majortitle",
+        "text": kony.i18n.getLocalizedString("i18n.timezone.text"),
+        "top": "22.70%",
+        "width": kony.flex.USE_PREFFERED_SIZE
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var Timezonec = new kony.ui.Label({
+        "id": "Timezonec",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "CopyslLabel0a8469a64faad45",
+        "text": "IST + 5.30",
+        "top": "55%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var timezonetext = new kony.ui.TextBox2({
+        "autoCapitalize": constants.TEXTBOX_AUTO_CAPITALIZE_NONE,
+        "focusSkin": "policytextskin",
+        "height": "40%",
+        "id": "timezonetext",
+        "isVisible": true,
+        "keyBoardStyle": constants.TEXTBOX_KEY_BOARD_STYLE_DEFAULT,
+        "left": "6%",
+        "secureTextEntry": false,
+        "skin": "policytextskin",
+        "textInputMode": constants.TEXTBOX_INPUT_MODE_ANY,
+        "top": "55%",
+        "width": "75%",
+        "zIndex": 1
+    }, {
+        "containerHeightMode": constants.TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT,
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [3, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "autoCorrect": false,
+        "closeButtonRequired": true,
+        "keyboardActionLabel": constants.TEXTBOX_KEYBOARD_LABEL_DONE,
+        "showClearButton": true,
+        "showCloseButton": true,
+        "showProgressIndicator": true,
+        "viewType": constants.TEXTBOX_VIEW_TYPE_DEFAULT
+    });
+    d11flex.add(
+    Timezone, Timezonec, timezonetext);
+    var d12flex = new kony.ui.FlexContainer({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "clipBounds": true,
+        "height": "25%",
+        "id": "d12flex",
+        "isVisible": true,
+        "layoutType": kony.flex.FREE_FORM,
+        "left": "0%",
+        "skin": "CopyslFbox0da859cbf4cf04d",
+        "top": "275%",
+        "width": "100%",
+        "zIndex": 1
+    }, {}, {});
+    d12flex.setDefaultUnit(kony.flex.DP);
+    var Groups = new kony.ui.Label({
+        "id": "Groups",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "majortitle",
+        "text": kony.i18n.getLocalizedString("i18n.group.text"),
+        "top": "22.70%",
+        "width": kony.flex.USE_PREFFERED_SIZE
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var Groupsc = new kony.ui.Label({
+        "id": "Groupsc",
+        "isVisible": true,
+        "left": "7%",
+        "skin": "CopyslLabel0a8469a64faad45",
+        "text": "Cycling,Trecking and Adventure",
+        "top": "55%",
+        "width": kony.flex.USE_PREFFERED_SIZE,
+        "zIndex": 1
+    }, {
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "textCopyable": false,
+        "wrapping": constants.WIDGET_TEXT_WORD_WRAP
+    });
+    var groupstext = new kony.ui.TextBox2({
+        "autoCapitalize": constants.TEXTBOX_AUTO_CAPITALIZE_NONE,
+        "focusSkin": "policytextskin",
+        "height": "40%",
+        "id": "groupstext",
+        "isVisible": true,
+        "keyBoardStyle": constants.TEXTBOX_KEY_BOARD_STYLE_DEFAULT,
+        "left": "6%",
+        "secureTextEntry": false,
+        "skin": "policytextskin",
+        "textInputMode": constants.TEXTBOX_INPUT_MODE_ANY,
+        "top": "55%",
+        "width": "75%",
+        "zIndex": 1
+    }, {
+        "containerHeightMode": constants.TEXTBOX_FONT_METRICS_DRIVEN_HEIGHT,
+        "contentAlignment": constants.CONTENT_ALIGN_MIDDLE_LEFT,
+        "padding": [3, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "autoCorrect": false,
+        "closeButtonRequired": true,
+        "keyboardActionLabel": constants.TEXTBOX_KEYBOARD_LABEL_DONE,
+        "showClearButton": true,
+        "showCloseButton": true,
+        "showProgressIndicator": true,
+        "viewType": constants.TEXTBOX_VIEW_TYPE_DEFAULT
+    });
+    d12flex.add(
+    Groups, Groupsc, groupstext);
+    var heirarchysegment = new kony.ui.SegmentedUI2({
+        "autogrowMode": kony.flex.AUTOGROW_NONE,
+        "data": [
+            [{
+                "headerdotimage": "slider.png",
+                "headerdotlabel": "||||||||||||||||||||||||||||||||||||||||||||||||",
+                "sectionheadlabel": " Reporting to:"
+            }, [{
+                "department": "Department",
+                "designation": "Designation",
+                "empimage": "image1.png",
+                "empname": "Acker,clara",
+                "headerdotlabel": "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||",
+                "onlineimage": "slider.png"
+            }, {
+                "department": "Department",
+                "designation": "Designation",
+                "empimage": "image1.png",
+                "empname": "Acker,clara",
+                "headerdotlabel": "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||",
+                "onlineimage": "slider.png"
+            }]],
+            [{
+                "headerdotimage": "slider.png",
+                "headerdotlabel": "||||||||||||||||||||||||||||||||||||||||||||||||",
+                "sectionheadlabel": " Reporting to:"
+            }, [{
+                "department": "Department",
+                "designation": "Designation",
+                "empimage": "image1.png",
+                "empname": "Acker,clara",
+                "headerdotlabel": "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||",
+                "onlineimage": "slider.png"
+            }, {
+                "department": "Department",
+                "designation": "Designation",
+                "empimage": "image1.png",
+                "empname": "Acker,clara",
+                "headerdotlabel": "|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||",
+                "onlineimage": "slider.png"
+            }]]
+        ],
+        "groupCells": false,
+        "height": "100%",
+        "id": "heirarchysegment",
+        "isVisible": false,
+        "left": "0%",
+        "needPageIndicator": true,
+        "pageOffDotImage": "pageOffDot.png",
+        "pageOnDotImage": "pageOnDot.png",
+        "retainSelection": false,
+        "rowFocusSkin": "seg2Focus",
+        "rowSkin": "seg2Normal",
+        "rowTemplate": maincontainer,
+        "scrollingEvents": {
+            "onReachingBegining": AS_Segment_fdc3500c5e4d4a13834ea9eae040b566,
+        },
+        "sectionHeaderSkin": "sliPhoneSegmentHeader",
+        "sectionHeaderTemplate": heirarchysectionheadcontainer,
+        "selectionBehavior": constants.SEGUI_DEFAULT_BEHAVIOR,
+        "separatorRequired": false,
+        "showScrollbars": false,
+        "top": "0%",
+        "viewType": constants.SEGUI_VIEW_TYPE_TABLEVIEW,
+        "widgetDataMap": {
+            "datacontainer1": "datacontainer1",
+            "department": "department",
+            "designation": "designation",
+            "empimage": "empimage",
+            "empname": "empname",
+            "headerdotimage": "headerdotimage",
+            "headerdotlabel": "headerdotlabel",
+            "heirarchysectionheadcontainer": "heirarchysectionheadcontainer",
+            "maincontainer": "maincontainer",
+            "onlineimage": "onlineimage",
+            "sectionheadlabel": "sectionheadlabel"
+        },
+        "width": "96%"
+    }, {
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "bounces": false,
+        "editStyle": constants.SEGUI_EDITING_STYLE_NONE,
+        "enableDictionary": false,
+        "indicator": constants.SEGUI_NONE,
+        "progressIndicatorColor": constants.PROGRESS_INDICATOR_COLOR_WHITE,
+        "showProgressIndicator": true
+    });
+    totalscroll.add(
+    d1flex, d2flex, d3flex, d4flex, d5flex, d6flex, d7flex, d8flex, d9flex, d10flex, d11flex, d12flex, heirarchysegment);
+    profilepageunused.add(
+    photoflex, staticimage, backimage, categoryflex, backbutton, dataeditflex, totalscroll);
+};
+
+function profilepageunusedGlobals() {
+    profilepageunused = new kony.ui.Form2({
+        "addWidgets": addWidgetsprofilepageunused,
+        "allowHorizontalBounce": false,
+        "bounces": false,
+        "enableScrolling": true,
+        "enabledForIdleTimeout": false,
+        "id": "profilepageunused",
+        "layoutType": kony.flex.FREE_FORM,
+        "needAppMenu": false,
+        "preShow": AS_Form_54709277d1d743b2be5781eb5357c2bc,
+        "skin": "CopyslForm06356908336df4e"
+    }, {
+        "displayOrientation": constants.FORM_DISPLAY_ORIENTATION_PORTRAIT,
+        "layoutType": kony.flex.FREE_FORM,
+        "padding": [0, 0, 0, 0],
+        "paddingInPixel": false
+    }, {
+        "bounces": false,
+        "configureExtendBottom": false,
+        "configureExtendTop": false,
+        "configureStatusBarStyle": false,
+        "footerOverlap": false,
+        "formTransparencyDuringPostShow": "100",
+        "headerOverlap": false,
+        "inputAccessoryViewType": constants.FORM_INPUTACCESSORYVIEW_CANCEL,
+        "needsIndicatorDuringPostShow": false,
+        "retainScrollPosition": false,
+        "titleBar": false
+    });
+};
